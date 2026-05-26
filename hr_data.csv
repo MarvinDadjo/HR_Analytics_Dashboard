@@ -1,0 +1,601 @@
+employee_id,first_name,last_name,gender,age,department,job_title,hire_date,tenure_years,salary,performance_score,satisfaction_score,absence_days,attrition,remote_work,education
+EMP1001,Logan,White,Male,53,HR,HR Business Partner,2021-03-24,3.8,60563,2,7,5,No,On-site,Master's
+EMP1002,Sofia,Smith,Female,27,Engineering,Tech Lead,2018-04-20,6.7,104088,3,2,6,No,Hybrid,Bachelor's
+EMP1003,Chloe,Thompson,Female,44,Engineering,Junior Developer,2019-10-09,5.2,53885,3,5,0,No,Hybrid,Bachelor's
+EMP1004,Harper,Davis,Female,29,Engineering,Senior Developer,2023-02-02,1.9,85080,3,3,3,Yes,Hybrid,Master's
+EMP1005,Mason,Miller,Male,52,Finance,Financial Analyst,2018-02-06,6.9,51290,3,10,1,No,On-site,Bachelor's
+EMP1006,Sophia,Miller,Female,40,Finance,Finance Manager,2017-07-20,7.5,71694,3,5,5,No,On-site,Bachelor's
+EMP1007,Oliver,Robinson,Male,40,Operations,Operations Analyst,2022-10-27,2.2,41374,2,7,0,No,Hybrid,Master's
+EMP1008,James,Clark,Male,40,Engineering,Tech Lead,2020-04-06,4.7,110013,4,6,4,No,Hybrid,PhD
+EMP1009,Ella,Brown,Female,26,Sales,Account Executive,2019-06-30,5.5,57263,2,8,10,No,On-site,Bachelor's
+EMP1010,Ava,Davis,Female,29,Engineering,Senior Developer,2021-04-04,3.7,94921,3,5,6,No,On-site,Bachelor's
+EMP1011,Sofia,Harris,Female,41,Engineering,Tech Lead,2024-08-24,0.4,110961,3,6,3,No,Hybrid,High School
+EMP1012,Mason,Miller,Male,38,Marketing,Marketing Specialist,2022-05-29,2.6,56565,3,6,6,Yes,Hybrid,Bachelor's
+EMP1013,James,White,Male,50,Engineering,Mid Developer,2022-09-24,2.3,74934,1,1,7,No,Hybrid,Bachelor's
+EMP1014,Sofia,Williams,Female,36,Engineering,Senior Developer,2017-12-19,7.0,85988,3,6,13,No,On-site,PhD
+EMP1015,Sophia,Robinson,Female,36,HR,HR Business Partner,2022-04-06,2.7,49083,3,6,5,No,Full Remote,High School
+EMP1016,Riley,Clark,Female,40,Marketing,Marketing Specialist,2019-12-04,5.1,51372,3,8,10,No,On-site,PhD
+EMP1017,Sofia,Williams,Female,24,Engineering,Tech Lead,2024-12-22,0.0,106163,2,3,14,Yes,Hybrid,High School
+EMP1018,Aiden,Clark,Male,24,HR,HR Business Partner,2023-07-23,1.4,59486,1,6,0,No,Hybrid,Master's
+EMP1019,Mia,Clark,Female,49,Operations,Operations Analyst,2022-02-13,2.9,38605,5,5,4,No,Hybrid,Bachelor's
+EMP1020,Sophia,Garcia,Female,43,Engineering,Senior Developer,2019-08-14,5.4,93378,3,8,7,No,On-site,Master's
+EMP1021,Tyler,Williams,Male,42,Operations,Operations Specialist,2017-10-30,7.2,53501,4,6,7,No,On-site,Bachelor's
+EMP1022,Austin,Harris,Male,48,Finance,Finance Manager,2015-08-11,9.4,73642,3,7,13,No,Hybrid,Master's
+EMP1023,Olivia,Miller,Female,39,Sales,Sales Representative,2021-02-27,3.8,45190,4,7,2,No,On-site,Bachelor's
+EMP1024,Hunter,Davis,Male,32,Engineering,Senior Developer,2018-06-26,6.5,89485,3,7,5,No,Hybrid,High School
+EMP1025,Tyler,Brown,Male,31,Customer Support,Senior Support Agent,2020-08-03,4.4,43191,3,4,16,No,Hybrid,Master's
+EMP1026,Ella,Martin,Female,37,Sales,Sales Manager,2020-02-14,4.9,90330,5,7,5,No,On-site,Bachelor's
+EMP1027,Noah,Wilson,Male,48,Engineering,Senior Developer,2018-10-24,6.2,89112,5,4,0,No,Hybrid,Master's
+EMP1028,Evelyn,Clark,Female,53,Engineering,Mid Developer,2024-09-14,0.3,68656,2,4,6,No,Hybrid,Bachelor's
+EMP1029,Sofia,Anderson,Female,34,Operations,Operations Specialist,2022-10-27,2.2,43187,4,7,2,No,On-site,Bachelor's
+EMP1030,Ella,Jackson,Female,46,HR,HR Generalist,2022-06-11,2.6,62774,4,7,9,No,Full Remote,PhD
+EMP1031,Brandon,Clark,Male,43,Operations,Operations Specialist,2024-10-02,0.2,50558,3,1,6,Yes,On-site,High School
+EMP1032,Emma,Jones,Female,48,Finance,Finance Manager,2024-10-07,0.2,77004,4,5,3,Yes,Hybrid,PhD
+EMP1033,Riley,Jackson,Female,27,Marketing,Marketing Specialist,2024-07-20,0.5,59120,4,6,8,No,Hybrid,PhD
+EMP1034,Chloe,Johnson,Female,26,Customer Support,Team Lead,2017-08-19,7.4,54091,2,8,8,No,On-site,Master's
+EMP1035,Sophia,Brown,Female,50,Sales,Account Executive,2016-11-12,8.1,65272,4,7,7,No,Full Remote,Master's
+EMP1036,Emily,Thomas,Female,49,Marketing,CMO,2016-08-19,8.4,85574,4,8,7,No,On-site,Bachelor's
+EMP1037,Noah,Lewis,Male,46,Operations,Operations Specialist,2021-12-13,3.1,51489,3,9,1,No,Hybrid,Bachelor's
+EMP1038,Tyler,Wilson,Male,51,HR,HR Business Partner,2017-11-11,7.1,55756,5,7,2,No,On-site,Bachelor's
+EMP1039,Chloe,Garcia,Female,26,Operations,Process Manager,2019-12-15,5.0,63858,3,5,8,No,Hybrid,PhD
+EMP1040,Sofia,Taylor,Female,34,Marketing,Marketing Manager,2019-04-25,5.7,81434,5,3,7,Yes,Hybrid,Bachelor's
+EMP1041,Evelyn,Smith,Female,47,Finance,Finance Manager,2018-01-29,6.9,66775,2,8,9,No,On-site,PhD
+EMP1042,Evelyn,Davis,Female,44,Engineering,Senior Developer,2017-06-16,7.5,90355,3,7,8,No,On-site,Master's
+EMP1043,Liam,Johnson,Male,41,Engineering,Mid Developer,2023-11-05,1.2,75938,5,9,5,No,Hybrid,Master's
+EMP1044,Jack,Anderson,Male,48,Sales,Sales Representative,2016-12-20,8.0,45084,5,4,7,Yes,On-site,Master's
+EMP1045,Grace,Thompson,Female,39,Engineering,Mid Developer,2024-04-24,0.7,63670,4,8,1,No,On-site,PhD
+EMP1046,Abigail,Brown,Female,51,Engineering,Senior Developer,2015-11-05,9.2,81020,4,6,9,No,On-site,Master's
+EMP1047,Chloe,Thomas,Female,27,Engineering,Mid Developer,2023-11-13,1.1,65639,2,3,6,Yes,Full Remote,Bachelor's
+EMP1048,Victoria,Jackson,Female,45,Engineering,Senior Developer,2016-03-19,8.8,89129,5,3,0,No,Hybrid,PhD
+EMP1049,Riley,Davis,Female,26,HR,HR Generalist,2022-02-15,2.9,51367,2,5,5,No,Hybrid,Bachelor's
+EMP1050,Oliver,Johnson,Male,41,Sales,Account Executive,2020-07-10,4.5,57941,4,5,5,Yes,Hybrid,Bachelor's
+EMP1051,Sofia,Thomas,Female,56,Sales,Senior AE,2019-09-13,5.3,74240,2,7,6,No,On-site,Master's
+EMP1052,Riley,White,Female,39,Engineering,Mid Developer,2015-05-15,9.6,74112,4,4,9,Yes,Hybrid,Bachelor's
+EMP1053,Sophia,Thomas,Female,56,Engineering,Engineering Manager,2022-03-26,2.8,112840,4,2,3,No,Full Remote,Bachelor's
+EMP1054,Ava,Miller,Female,23,Customer Support,Support Manager,2015-07-27,9.4,62318,4,10,0,No,Full Remote,Bachelor's
+EMP1055,Austin,Miller,Male,35,HR,HR Manager,2024-02-13,0.9,66397,5,7,11,No,Hybrid,Bachelor's
+EMP1056,Aiden,Jones,Male,30,HR,HR Manager,2021-01-21,3.9,70852,5,6,6,No,Full Remote,Master's
+EMP1057,Lucas,Smith,Male,44,Engineering,Mid Developer,2023-11-10,1.1,74231,3,8,8,No,Hybrid,High School
+EMP1058,Olivia,Jones,Female,48,Finance,Finance Manager,2020-11-24,4.1,66823,4,4,10,Yes,Hybrid,Bachelor's
+EMP1059,Tyler,Thompson,Male,36,Engineering,Senior Developer,2021-11-24,3.1,95081,4,3,11,Yes,On-site,Master's
+EMP1060,Sofia,Smith,Female,25,Sales,Account Executive,2020-05-15,4.6,52468,3,7,4,No,Full Remote,Master's
+EMP1061,Ava,Williams,Female,42,Customer Support,Support Manager,2021-10-27,3.2,51006,3,4,5,Yes,Hybrid,Bachelor's
+EMP1062,Elizabeth,Lewis,Female,55,HR,HR Manager,2018-04-22,6.7,71091,2,4,7,No,Full Remote,Master's
+EMP1063,Connor,Harris,Male,36,Marketing,Content Manager,2019-08-22,5.4,64557,3,4,8,No,Hybrid,Bachelor's
+EMP1064,Ryan,White,Male,42,Finance,Senior Analyst,2022-06-17,2.5,58109,3,6,13,No,On-site,Master's
+EMP1065,Ava,Williams,Female,27,Operations,Operations Specialist,2016-01-17,9.0,48643,4,5,5,No,Hybrid,Bachelor's
+EMP1066,Jake,Robinson,Male,57,Operations,Process Manager,2018-09-12,6.3,55792,3,6,12,No,Hybrid,Master's
+EMP1067,Olivia,Taylor,Female,41,Engineering,Senior Developer,2018-12-11,6.1,83551,4,4,2,No,Full Remote,Bachelor's
+EMP1068,Nathan,Robinson,Male,45,Engineering,Mid Developer,2016-04-15,8.7,69423,5,8,12,No,Hybrid,Master's
+EMP1069,Hunter,Wilson,Male,23,Sales,Account Executive,2017-01-08,8.0,67342,3,5,8,No,On-site,PhD
+EMP1070,Emma,Garcia,Female,31,Engineering,Junior Developer,2021-05-08,3.7,59667,5,5,0,Yes,On-site,PhD
+EMP1071,Brandon,Miller,Male,46,Engineering,Mid Developer,2019-09-16,5.3,73944,3,7,2,No,Full Remote,Bachelor's
+EMP1072,Victoria,Lewis,Female,27,Customer Support,Team Lead,2024-11-27,0.1,51106,4,6,6,Yes,Hybrid,Master's
+EMP1073,Sofia,White,Female,53,Operations,Operations Analyst,2021-10-22,3.2,37414,4,5,0,No,On-site,Bachelor's
+EMP1074,Sophia,Taylor,Female,53,Sales,Account Executive,2020-11-28,4.1,52056,3,4,3,Yes,Hybrid,Bachelor's
+EMP1075,Mason,Taylor,Male,35,HR,HR Generalist,2023-08-10,1.4,53775,3,6,3,Yes,Hybrid,Bachelor's
+EMP1076,Jordan,White,Male,33,Sales,VP Sales,2016-06-13,8.6,106812,5,5,7,No,On-site,Bachelor's
+EMP1077,Ava,Jackson,Female,24,Customer Support,Team Lead,2019-11-22,5.1,49447,3,5,4,No,On-site,Bachelor's
+EMP1078,Lily,Taylor,Female,29,Sales,Account Executive,2019-07-18,5.5,62711,5,5,10,No,On-site,Master's
+EMP1079,Ava,White,Female,28,Engineering,Junior Developer,2017-09-23,7.3,51485,3,6,12,No,Full Remote,Master's
+EMP1080,Amelia,Anderson,Female,32,Engineering,Senior Developer,2015-11-09,9.1,89928,5,6,0,Yes,Hybrid,PhD
+EMP1081,Emily,Jones,Female,37,Marketing,Content Manager,2016-02-26,8.8,63115,3,4,6,No,Hybrid,Master's
+EMP1082,Ethan,Martin,Male,51,Engineering,Mid Developer,2023-06-18,1.5,71839,5,5,10,No,Hybrid,Master's
+EMP1083,Abigail,Jones,Female,50,HR,HR Business Partner,2015-10-07,9.2,60494,4,9,2,No,On-site,Bachelor's
+EMP1084,Grace,Williams,Female,41,Operations,Operations Manager,2020-03-06,4.8,67890,5,7,0,Yes,On-site,High School
+EMP1085,Hunter,Lewis,Male,54,Sales,Senior AE,2019-04-24,5.7,87283,1,10,6,No,Hybrid,Master's
+EMP1086,Tyler,Clark,Male,34,Engineering,Tech Lead,2018-08-09,6.4,113135,4,5,12,No,Hybrid,PhD
+EMP1087,Sophia,Anderson,Female,27,Customer Support,Senior Support Agent,2020-08-28,4.3,42323,4,3,10,Yes,On-site,PhD
+EMP1088,Nathan,Thomas,Male,40,Marketing,Content Manager,2019-05-06,5.7,61880,5,3,0,No,Hybrid,Bachelor's
+EMP1089,Ava,Anderson,Female,28,Engineering,Junior Developer,2021-04-04,3.7,52484,3,8,4,No,On-site,Master's
+EMP1090,Ryan,Williams,Male,31,Engineering,Junior Developer,2018-12-03,6.1,59506,4,4,4,No,On-site,Master's
+EMP1091,Hunter,Williams,Male,41,Engineering,Tech Lead,2021-04-08,3.7,112042,3,10,5,No,On-site,Master's
+EMP1092,Connor,Thompson,Male,45,HR,HR Generalist,2015-03-16,9.8,55765,3,2,10,No,Full Remote,Bachelor's
+EMP1093,Charlotte,Davis,Female,30,Operations,Operations Specialist,2016-09-26,8.3,42471,4,5,2,No,Full Remote,Master's
+EMP1094,Ryan,Lewis,Male,30,Sales,Account Executive,2021-09-12,3.3,66336,3,4,8,No,Full Remote,Master's
+EMP1095,Tyler,Johnson,Male,48,Engineering,Mid Developer,2019-02-01,5.9,72788,4,6,4,No,Hybrid,Bachelor's
+EMP1096,Sofia,Davis,Female,56,Sales,Sales Manager,2017-09-06,7.3,88973,5,3,7,No,Hybrid,Master's
+EMP1097,Victoria,Harris,Female,51,Customer Support,Team Lead,2023-08-18,1.4,46756,4,8,0,No,Hybrid,PhD
+EMP1098,Hunter,Jones,Male,38,Marketing,Content Manager,2015-08-02,9.4,75285,5,7,3,No,On-site,Bachelor's
+EMP1099,Brandon,Brown,Male,40,Customer Support,Senior Support Agent,2015-12-10,9.1,42795,3,10,5,No,Hybrid,PhD
+EMP1100,Connor,Williams,Male,36,Operations,Process Manager,2024-02-28,0.8,64264,4,4,3,No,Hybrid,High School
+EMP1101,Dylan,Thompson,Male,45,Engineering,Senior Developer,2017-08-23,7.4,96616,3,9,7,No,Full Remote,Bachelor's
+EMP1102,Sophia,Anderson,Female,31,Finance,CFO,2016-07-17,8.5,90198,1,5,8,No,Hybrid,Master's
+EMP1103,Sofia,Lewis,Female,22,Finance,Finance Manager,2015-11-21,9.1,65636,4,7,0,No,Full Remote,PhD
+EMP1104,Sophia,Taylor,Female,37,Marketing,Marketing Coordinator,2018-05-18,6.6,38881,3,6,3,No,Hybrid,Master's
+EMP1105,Liam,Martin,Male,56,Engineering,Tech Lead,2015-03-09,9.8,111110,4,3,13,No,Hybrid,Master's
+EMP1106,Lily,Smith,Female,44,HR,HR Generalist,2017-09-12,7.3,50724,4,4,3,Yes,On-site,Bachelor's
+EMP1107,Ava,Thompson,Female,56,Engineering,Mid Developer,2020-09-09,4.3,72478,4,9,8,No,Full Remote,Master's
+EMP1108,Dylan,Thomas,Male,38,Sales,Senior AE,2023-05-20,1.6,70856,5,4,7,Yes,On-site,Bachelor's
+EMP1109,Jake,Anderson,Male,30,Sales,Sales Manager,2015-07-01,9.5,89425,5,8,10,No,Hybrid,Master's
+EMP1110,Ella,Garcia,Female,30,Customer Support,Senior Support Agent,2015-09-16,9.3,40383,4,5,4,No,Full Remote,Bachelor's
+EMP1111,Oliver,Anderson,Male,41,Operations,Process Manager,2020-10-12,4.2,64252,4,5,4,No,On-site,Bachelor's
+EMP1112,Mason,Taylor,Male,44,Engineering,Senior Developer,2024-09-01,0.3,96058,1,8,6,No,On-site,Bachelor's
+EMP1113,Nathan,White,Male,47,Marketing,Marketing Coordinator,2023-05-03,1.7,42000,3,4,11,No,On-site,Bachelor's
+EMP1114,Jordan,Martin,Male,45,Engineering,Tech Lead,2023-12-10,1.1,107575,3,6,5,No,On-site,Master's
+EMP1115,Connor,Lewis,Male,33,Customer Support,Support Manager,2021-02-12,3.9,66687,5,10,5,No,Full Remote,Bachelor's
+EMP1116,Evelyn,Harris,Female,49,Operations,Operations Specialist,2016-11-13,8.1,52027,4,5,3,No,Full Remote,Master's
+EMP1117,Riley,White,Female,39,Sales,Account Executive,2022-03-04,2.8,65486,4,7,3,No,Full Remote,Master's
+EMP1118,Grace,Garcia,Female,23,HR,HR Generalist,2016-08-07,8.4,42284,4,5,3,No,Hybrid,Bachelor's
+EMP1119,Nathan,Thomas,Male,46,HR,HR Generalist,2021-05-12,3.6,49042,3,6,2,Yes,Full Remote,Bachelor's
+EMP1120,Emily,Harris,Female,26,Engineering,Mid Developer,2021-06-08,3.6,68002,3,5,16,No,Hybrid,Bachelor's
+EMP1121,James,Garcia,Male,53,Operations,Operations Analyst,2020-10-21,4.2,42335,4,8,4,No,Hybrid,Bachelor's
+EMP1122,Sofia,Miller,Female,40,Marketing,Marketing Specialist,2022-10-13,2.2,55750,4,7,11,No,Full Remote,Master's
+EMP1123,Mia,Harris,Female,27,Operations,Operations Specialist,2024-02-02,0.9,51521,4,6,4,No,Hybrid,Bachelor's
+EMP1124,Austin,Robinson,Male,40,Marketing,Marketing Specialist,2024-12-29,0.0,55435,3,8,8,Yes,Full Remote,Master's
+EMP1125,Nathan,Thompson,Male,36,Engineering,Mid Developer,2016-05-12,8.6,73368,4,6,7,No,On-site,Bachelor's
+EMP1126,Emma,Thomas,Female,57,Sales,Account Executive,2021-06-02,3.6,53115,4,3,10,No,Hybrid,Master's
+EMP1127,Noah,Taylor,Male,47,Engineering,Mid Developer,2023-01-15,2.0,80012,4,3,5,No,Hybrid,Master's
+EMP1128,Lucas,Anderson,Male,26,Customer Support,Team Lead,2020-01-18,5.0,44704,4,7,1,No,Hybrid,Bachelor's
+EMP1129,Lucas,White,Male,54,Operations,Process Manager,2024-09-26,0.3,67600,3,2,5,Yes,Full Remote,Bachelor's
+EMP1130,Ethan,Anderson,Male,36,Operations,Operations Manager,2018-11-18,6.1,78473,3,9,0,No,Hybrid,Bachelor's
+EMP1131,Aiden,Miller,Male,57,Sales,Account Executive,2018-01-29,6.9,62620,4,5,7,Yes,Hybrid,Bachelor's
+EMP1132,Jake,Clark,Male,31,Engineering,Senior Developer,2016-12-02,8.1,95336,3,10,3,No,On-site,Master's
+EMP1133,James,Williams,Male,24,Operations,Operations Manager,2022-03-12,2.8,80862,3,5,3,No,Hybrid,Bachelor's
+EMP1134,Riley,Smith,Female,53,Customer Support,Team Lead,2024-12-20,0.0,41621,3,5,9,Yes,On-site,Bachelor's
+EMP1135,Evelyn,Harris,Female,26,Engineering,Mid Developer,2022-09-21,2.3,66714,4,7,1,No,Hybrid,Bachelor's
+EMP1136,Ryan,Anderson,Male,44,Marketing,Marketing Manager,2019-06-22,5.5,73583,3,3,1,Yes,Hybrid,Bachelor's
+EMP1137,Amelia,Harris,Female,29,Engineering,Senior Developer,2017-12-31,7.0,91815,1,8,9,Yes,Full Remote,PhD
+EMP1138,Amelia,Garcia,Female,42,Operations,Operations Specialist,2021-06-24,3.5,52711,4,4,11,Yes,Full Remote,PhD
+EMP1139,Ella,Taylor,Female,53,Operations,Operations Manager,2015-04-05,9.7,67944,5,4,4,No,Hybrid,Bachelor's
+EMP1140,Olivia,Johnson,Female,40,Engineering,Mid Developer,2020-07-20,4.5,78022,4,6,6,No,On-site,Bachelor's
+EMP1141,Liam,White,Male,30,Sales,Sales Manager,2024-11-23,0.1,92720,5,8,0,No,Hybrid,Bachelor's
+EMP1142,Dylan,Johnson,Male,58,Marketing,Marketing Manager,2021-04-20,3.7,75892,1,6,6,Yes,Hybrid,High School
+EMP1143,Chloe,Wilson,Female,29,Engineering,Tech Lead,2016-06-11,8.6,108127,3,8,9,No,On-site,Bachelor's
+EMP1144,Isabella,Miller,Female,54,Operations,Operations Specialist,2019-07-03,5.5,54539,2,5,7,Yes,Full Remote,Bachelor's
+EMP1145,Grace,Harris,Female,31,Sales,Account Executive,2021-10-19,3.2,59401,3,4,10,Yes,On-site,Bachelor's
+EMP1146,Riley,Taylor,Female,43,Engineering,Senior Developer,2020-09-08,4.3,82655,3,8,0,No,On-site,Bachelor's
+EMP1147,Nathan,Anderson,Male,29,Marketing,Marketing Specialist,2019-09-03,5.3,55557,3,5,0,No,On-site,Master's
+EMP1148,Hunter,Martin,Male,38,Finance,Senior Analyst,2022-05-09,2.7,65650,3,10,4,No,On-site,Bachelor's
+EMP1149,Jake,Martin,Male,32,Engineering,Mid Developer,2020-11-17,4.1,72713,3,6,5,No,Hybrid,Master's
+EMP1150,Logan,Johnson,Male,58,Sales,Sales Representative,2022-11-09,2.1,45000,4,5,9,Yes,Full Remote,Bachelor's
+EMP1151,Connor,Miller,Male,48,Customer Support,Team Lead,2020-08-17,4.4,49340,4,10,3,No,On-site,Master's
+EMP1152,Lucas,Thompson,Male,35,HR,HR Generalist,2021-04-16,3.7,50351,3,8,7,No,On-site,Bachelor's
+EMP1153,Mia,Harris,Female,56,Sales,Account Executive,2018-11-03,6.2,62282,4,4,12,No,On-site,Master's
+EMP1154,Riley,Martin,Female,34,Marketing,Content Manager,2017-10-06,7.2,62941,5,7,7,No,On-site,PhD
+EMP1155,Charlotte,Martin,Female,42,Engineering,Tech Lead,2020-05-19,4.6,106807,4,7,8,No,On-site,Bachelor's
+EMP1156,Jake,Robinson,Male,46,Engineering,Junior Developer,2019-06-05,5.6,55000,3,3,6,No,On-site,Master's
+EMP1157,Olivia,Taylor,Female,27,Sales,Sales Representative,2018-11-19,6.1,43826,3,8,12,No,On-site,Bachelor's
+EMP1158,Chloe,Wilson,Female,30,HR,HR Assistant,2016-03-23,8.8,36071,1,4,15,No,Hybrid,Master's
+EMP1159,Logan,Johnson,Male,28,Engineering,Junior Developer,2019-08-20,5.4,64759,4,8,8,No,Hybrid,Master's
+EMP1160,James,Robinson,Male,32,Engineering,Senior Developer,2019-07-25,5.4,89484,3,4,4,No,On-site,Bachelor's
+EMP1161,Jack,Anderson,Male,40,Engineering,Junior Developer,2022-03-30,2.8,60568,4,6,2,Yes,On-site,Master's
+EMP1162,Austin,Johnson,Male,33,HR,HR Generalist,2019-09-08,5.3,50171,4,6,0,No,Full Remote,PhD
+EMP1163,Ella,Garcia,Female,40,Engineering,Mid Developer,2024-10-31,0.2,68590,4,3,6,Yes,Hybrid,PhD
+EMP1164,Evelyn,Harris,Female,56,Customer Support,Senior Support Agent,2020-11-17,4.1,38935,4,8,3,No,On-site,Bachelor's
+EMP1165,Liam,Anderson,Male,32,Operations,Process Manager,2023-03-14,1.8,62228,3,8,4,No,Hybrid,Bachelor's
+EMP1166,Evelyn,Clark,Female,34,Engineering,Mid Developer,2016-12-19,8.0,65471,4,5,7,No,Hybrid,Bachelor's
+EMP1167,Ava,Jackson,Female,28,Engineering,Senior Developer,2017-01-26,7.9,89938,4,3,3,No,On-site,High School
+EMP1168,Amelia,Harris,Female,39,Finance,Financial Analyst,2018-09-12,6.3,44359,3,8,12,No,Full Remote,Master's
+EMP1169,Oliver,Brown,Male,51,Engineering,Senior Developer,2018-06-10,6.6,99013,2,2,3,Yes,On-site,PhD
+EMP1170,Sophia,Taylor,Female,45,Engineering,Senior Developer,2021-11-22,3.1,85742,5,7,0,No,Hybrid,Bachelor's
+EMP1171,Lily,Robinson,Female,52,Customer Support,Head of Support,2023-06-30,1.5,67896,3,6,7,No,Hybrid,Bachelor's
+EMP1172,Brandon,Harris,Male,55,Marketing,Marketing Specialist,2022-11-22,2.1,51567,4,4,5,No,On-site,Bachelor's
+EMP1173,Jake,Robinson,Male,31,Sales,Sales Representative,2016-11-04,8.2,45000,5,6,4,No,Hybrid,Bachelor's
+EMP1174,Jake,Martin,Male,27,Operations,Operations Specialist,2020-09-21,4.3,54073,4,6,6,No,Full Remote,Bachelor's
+EMP1175,Sofia,Clark,Female,25,Operations,Operations Specialist,2021-04-07,3.7,46246,2,6,0,No,On-site,Bachelor's
+EMP1176,Mason,Clark,Male,26,Engineering,Tech Lead,2015-07-05,9.5,102638,4,8,5,No,On-site,Bachelor's
+EMP1177,Noah,Martin,Male,24,Engineering,Senior Developer,2018-03-21,6.8,93569,4,5,7,No,On-site,Master's
+EMP1178,Emily,Jackson,Female,50,Sales,Account Executive,2024-10-01,0.3,56120,5,7,10,No,Full Remote,PhD
+EMP1179,Nathan,Brown,Male,33,Sales,Account Executive,2021-01-09,4.0,61291,3,5,0,No,Full Remote,PhD
+EMP1180,James,Taylor,Male,51,Sales,Sales Representative,2022-07-21,2.5,47118,3,2,6,No,Hybrid,Bachelor's
+EMP1181,Logan,Harris,Male,44,Finance,Senior Analyst,2016-09-27,8.3,68373,3,5,10,No,On-site,Master's
+EMP1182,Oliver,White,Male,23,Finance,Senior Analyst,2017-09-12,7.3,60901,3,3,3,Yes,Full Remote,High School
+EMP1183,Logan,Johnson,Male,47,Customer Support,Senior Support Agent,2019-12-03,5.1,45997,3,7,10,No,Hybrid,Master's
+EMP1184,Lucas,Thompson,Male,40,Engineering,Engineering Manager,2017-08-17,7.4,129100,3,8,8,No,On-site,Bachelor's
+EMP1185,Amelia,Taylor,Female,31,Sales,Sales Manager,2022-05-28,2.6,86226,4,4,7,No,Hybrid,Bachelor's
+EMP1186,Connor,Robinson,Male,53,Sales,Account Executive,2015-07-12,9.5,60615,3,4,4,No,On-site,Master's
+EMP1187,Lily,White,Female,31,Operations,Operations Analyst,2018-05-13,6.6,42677,5,8,5,No,Hybrid,Master's
+EMP1188,Isabella,Harris,Female,25,Engineering,Junior Developer,2021-04-22,3.7,51315,5,5,14,No,Hybrid,Bachelor's
+EMP1189,Charlotte,Anderson,Female,27,Engineering,Senior Developer,2020-01-17,5.0,89642,3,4,2,Yes,On-site,Bachelor's
+EMP1190,Elizabeth,Lewis,Female,24,Sales,Sales Manager,2024-10-18,0.2,85589,1,4,0,No,Hybrid,Master's
+EMP1191,Jordan,Miller,Male,43,Sales,Sales Manager,2018-05-26,6.6,98492,3,7,8,No,Full Remote,PhD
+EMP1192,Jordan,Davis,Male,35,Engineering,Tech Lead,2019-06-13,5.6,110246,4,10,7,No,Hybrid,Master's
+EMP1193,Sofia,Robinson,Female,44,Engineering,Junior Developer,2018-06-17,6.5,56280,4,4,8,No,Hybrid,High School
+EMP1194,Abigail,Miller,Female,45,Customer Support,Support Manager,2018-07-05,6.5,51213,4,5,5,No,Hybrid,Bachelor's
+EMP1195,Chloe,Clark,Female,48,Sales,Account Executive,2018-04-24,6.7,55261,4,8,7,No,Hybrid,Master's
+EMP1196,Chloe,Anderson,Female,38,Operations,Operations Specialist,2023-07-24,1.4,55232,4,5,7,No,Hybrid,Bachelor's
+EMP1197,Nathan,Garcia,Male,30,Marketing,Marketing Specialist,2023-01-29,1.9,56485,4,2,12,No,Full Remote,Master's
+EMP1198,Brandon,Johnson,Male,26,Engineering,Mid Developer,2024-03-04,0.8,75274,4,4,5,No,On-site,Bachelor's
+EMP1199,Noah,Jones,Male,22,Customer Support,Team Lead,2017-06-14,7.6,60179,4,5,7,No,Hybrid,Master's
+EMP1200,Ella,Smith,Female,22,Operations,Operations Analyst,2020-12-19,4.0,37820,1,5,2,Yes,Hybrid,Bachelor's
+EMP1201,Emma,Thompson,Female,49,Customer Support,Senior Support Agent,2024-01-16,1.0,45968,5,2,4,Yes,On-site,Bachelor's
+EMP1202,Mason,Lewis,Male,55,Customer Support,Support Agent,2017-10-30,7.2,38730,3,9,0,No,Hybrid,Bachelor's
+EMP1203,Elizabeth,Harris,Female,58,Operations,Operations Analyst,2017-09-23,7.3,45208,4,7,14,Yes,On-site,Master's
+EMP1204,Noah,Jackson,Male,46,Engineering,Senior Developer,2019-03-25,5.8,90295,2,5,5,No,Full Remote,High School
+EMP1205,Noah,Martin,Male,49,Marketing,Marketing Specialist,2022-03-26,2.8,50683,3,4,5,No,Hybrid,Master's
+EMP1206,Brandon,Johnson,Male,36,Engineering,Mid Developer,2017-05-15,7.6,69653,4,5,13,No,On-site,Bachelor's
+EMP1207,Olivia,Williams,Female,39,Sales,Senior AE,2021-02-02,3.9,77358,4,2,4,Yes,On-site,Bachelor's
+EMP1208,Jake,Jones,Male,47,Engineering,Tech Lead,2015-11-12,9.1,109385,5,5,0,No,Hybrid,Bachelor's
+EMP1209,Chloe,Anderson,Female,46,Sales,Sales Manager,2023-06-22,1.5,78902,2,10,5,No,On-site,High School
+EMP1210,Olivia,Brown,Female,49,Customer Support,Support Manager,2017-08-08,7.4,56822,4,7,7,No,On-site,PhD
+EMP1211,Abigail,Smith,Female,39,Engineering,Senior Developer,2023-10-15,1.2,89796,3,7,5,No,Hybrid,PhD
+EMP1212,Mia,Clark,Female,46,Operations,Operations Manager,2015-12-18,9.0,74454,1,4,3,Yes,Hybrid,High School
+EMP1213,Isabella,Jackson,Female,31,Sales,Sales Representative,2023-04-18,1.7,41902,4,7,6,No,Full Remote,PhD
+EMP1214,Emily,Wilson,Female,28,Sales,Sales Representative,2016-06-26,8.5,43695,3,3,0,No,Hybrid,Bachelor's
+EMP1215,James,Williams,Male,44,Customer Support,Support Agent,2021-03-20,3.8,35000,5,6,2,Yes,Hybrid,Bachelor's
+EMP1216,Emma,Taylor,Female,48,Customer Support,Support Manager,2019-05-08,5.7,63054,4,6,2,No,Hybrid,PhD
+EMP1217,Jake,Thompson,Male,32,Marketing,Marketing Coordinator,2022-09-08,2.3,45615,3,10,8,No,Full Remote,Bachelor's
+EMP1218,Isabella,Williams,Female,32,Finance,Finance Manager,2019-11-16,5.1,68156,3,8,2,No,On-site,Bachelor's
+EMP1219,Jordan,Lewis,Male,34,Engineering,Mid Developer,2020-02-19,4.9,72740,5,1,4,Yes,Hybrid,PhD
+EMP1220,Riley,Jackson,Female,43,Sales,Senior AE,2019-12-09,5.1,72932,4,9,2,No,On-site,PhD
+EMP1221,Jack,Anderson,Male,34,Customer Support,Senior Support Agent,2020-05-16,4.6,38496,4,8,13,No,On-site,PhD
+EMP1222,Ella,Clark,Female,37,Marketing,Marketing Coordinator,2018-08-27,6.3,40866,4,8,2,No,Hybrid,Bachelor's
+EMP1223,Jake,Robinson,Male,33,Marketing,Marketing Specialist,2022-08-24,2.4,53635,5,7,2,No,Full Remote,Master's
+EMP1224,Tyler,Taylor,Male,26,Finance,CFO,2024-03-08,0.8,105000,5,7,11,No,On-site,Master's
+EMP1225,Jack,Davis,Male,38,Engineering,Senior Developer,2022-05-21,2.6,94213,3,10,10,No,Hybrid,Bachelor's
+EMP1226,Riley,Martin,Female,47,HR,HR Business Partner,2020-12-28,4.0,59115,4,10,4,No,On-site,Bachelor's
+EMP1227,Chloe,Lewis,Female,27,Marketing,Marketing Specialist,2016-03-23,8.8,52668,3,6,11,No,Hybrid,Master's
+EMP1228,Jake,Jackson,Male,43,Operations,Operations Specialist,2023-12-06,1.1,51544,2,3,4,Yes,Full Remote,Bachelor's
+EMP1229,Tyler,Thomas,Male,47,Engineering,Junior Developer,2020-03-11,4.8,61085,4,6,7,No,Hybrid,Bachelor's
+EMP1230,Emma,Martin,Female,28,Customer Support,Support Agent,2018-04-25,6.7,32664,3,5,6,No,Full Remote,PhD
+EMP1231,Nathan,Taylor,Male,43,Engineering,Mid Developer,2020-02-09,4.9,68366,4,5,1,No,Hybrid,Bachelor's
+EMP1232,Tyler,Harris,Male,42,Engineering,Senior Developer,2015-10-03,9.2,95038,3,7,10,No,On-site,Bachelor's
+EMP1233,Sophia,Garcia,Female,37,HR,HR Business Partner,2020-10-14,4.2,52644,5,8,0,No,Hybrid,PhD
+EMP1234,Dylan,Garcia,Male,33,Finance,Senior Analyst,2022-03-08,2.8,65087,3,6,4,No,Hybrid,Master's
+EMP1235,Tyler,Clark,Male,49,Engineering,Senior Developer,2019-05-12,5.6,96843,3,8,7,Yes,Hybrid,Bachelor's
+EMP1236,Jake,Brown,Male,56,Engineering,Mid Developer,2017-02-04,7.9,76949,3,8,0,No,Full Remote,Bachelor's
+EMP1237,Grace,Anderson,Female,46,Operations,Operations Analyst,2021-11-08,3.1,43628,3,4,5,Yes,Hybrid,Bachelor's
+EMP1238,Jack,Lewis,Male,27,Engineering,Mid Developer,2022-07-15,2.5,70040,2,5,6,Yes,Full Remote,Bachelor's
+EMP1239,Nathan,Jones,Male,54,HR,HR Business Partner,2019-05-11,5.6,65504,3,2,3,No,Full Remote,Bachelor's
+EMP1240,Jordan,Robinson,Male,33,HR,HR Generalist,2021-03-22,3.8,56199,4,4,11,No,Hybrid,Bachelor's
+EMP1241,Riley,Johnson,Female,44,Sales,Senior AE,2015-02-09,9.9,69588,4,7,6,No,Hybrid,Bachelor's
+EMP1242,Lily,Martin,Female,48,HR,HR Generalist,2022-12-18,2.0,45245,3,6,0,No,Full Remote,High School
+EMP1243,Jack,Johnson,Male,39,Marketing,Marketing Coordinator,2017-07-09,7.5,45040,4,4,4,No,Full Remote,Bachelor's
+EMP1244,Chloe,Thompson,Female,29,Customer Support,Senior Support Agent,2021-06-03,3.6,39646,2,4,8,No,On-site,Bachelor's
+EMP1245,Tyler,Robinson,Male,35,Engineering,Mid Developer,2019-10-08,5.2,73835,4,1,3,Yes,On-site,Master's
+EMP1246,Olivia,Harris,Female,38,Finance,Senior Analyst,2018-11-28,6.1,54189,4,4,9,Yes,On-site,Bachelor's
+EMP1247,Mason,Clark,Male,44,Engineering,Mid Developer,2024-08-27,0.3,70185,3,4,5,No,Hybrid,Bachelor's
+EMP1248,Mason,Miller,Male,25,Sales,Account Executive,2021-05-24,3.6,61924,4,8,7,No,Hybrid,Bachelor's
+EMP1249,Evelyn,Taylor,Female,58,Finance,Financial Analyst,2017-12-31,7.0,47767,5,7,3,No,On-site,Master's
+EMP1250,Connor,Johnson,Male,39,Sales,Sales Representative,2024-09-21,0.3,45000,4,2,0,No,On-site,Bachelor's
+EMP1251,Ryan,Davis,Male,47,Sales,Account Executive,2020-06-27,4.5,62958,3,6,1,Yes,Hybrid,Master's
+EMP1252,Sofia,Williams,Female,27,Finance,Controller,2019-07-09,5.5,86504,5,2,7,No,On-site,Bachelor's
+EMP1253,Abigail,Clark,Female,22,Engineering,Junior Developer,2024-09-29,0.3,52906,4,5,1,No,On-site,Bachelor's
+EMP1254,Ava,Robinson,Female,47,Sales,Account Executive,2017-06-11,7.6,64991,3,6,11,No,Hybrid,Bachelor's
+EMP1255,Abigail,Robinson,Female,58,Customer Support,Support Agent,2016-06-18,8.5,39193,3,7,5,No,Hybrid,Master's
+EMP1256,Oliver,Brown,Male,51,Customer Support,Support Agent,2015-03-08,9.8,37185,3,2,6,Yes,On-site,Bachelor's
+EMP1257,Connor,Miller,Male,30,Engineering,Mid Developer,2024-11-22,0.1,80144,5,5,8,No,Full Remote,PhD
+EMP1258,Ava,Thomas,Female,38,Engineering,Senior Developer,2015-12-04,9.1,85601,3,7,7,No,Full Remote,Bachelor's
+EMP1259,Amelia,White,Female,27,Engineering,Junior Developer,2022-11-22,2.1,58019,4,3,0,Yes,Full Remote,Bachelor's
+EMP1260,Emma,Smith,Female,43,Customer Support,Senior Support Agent,2024-02-29,0.8,33049,4,6,8,No,On-site,Bachelor's
+EMP1261,Dylan,Williams,Male,28,Operations,Operations Specialist,2016-02-27,8.8,56903,4,5,13,No,On-site,Bachelor's
+EMP1262,Lucas,Williams,Male,55,Operations,Operations Analyst,2021-04-26,3.7,40000,5,5,7,Yes,On-site,Bachelor's
+EMP1263,Lucas,White,Male,50,Sales,Senior AE,2024-08-23,0.4,78576,3,4,4,Yes,On-site,Bachelor's
+EMP1264,Jake,Jackson,Male,44,Engineering,Junior Developer,2019-10-25,5.2,55000,3,5,2,No,Full Remote,Bachelor's
+EMP1265,Logan,Robinson,Male,40,Operations,Operations Analyst,2023-09-26,1.3,44224,5,8,6,No,Full Remote,Master's
+EMP1266,Charlotte,Thompson,Female,54,Finance,Senior Analyst,2017-02-11,7.9,60092,2,6,5,Yes,Full Remote,Master's
+EMP1267,Jordan,Jackson,Male,29,HR,HR Business Partner,2017-09-14,7.3,59945,4,7,2,No,Hybrid,Bachelor's
+EMP1268,Nathan,Anderson,Male,30,Customer Support,Team Lead,2019-05-04,5.7,57312,3,7,8,No,Hybrid,Bachelor's
+EMP1269,Jordan,Williams,Male,23,HR,HR Generalist,2021-08-02,3.4,52767,4,6,7,Yes,Hybrid,High School
+EMP1270,Dylan,Thompson,Male,40,Engineering,Senior Developer,2022-01-18,3.0,89799,3,6,5,No,On-site,Bachelor's
+EMP1271,Ava,Robinson,Female,56,Operations,Operations Manager,2021-11-28,3.1,71474,4,6,8,Yes,Full Remote,PhD
+EMP1272,Austin,Anderson,Male,47,Sales,Sales Representative,2021-07-30,3.4,48317,3,3,5,No,On-site,Master's
+EMP1273,Jack,White,Male,37,Finance,Senior Analyst,2015-08-26,9.4,63359,4,6,0,No,On-site,Bachelor's
+EMP1274,Jack,Garcia,Male,29,Customer Support,Team Lead,2015-02-21,9.9,56728,4,6,2,No,On-site,Bachelor's
+EMP1275,Grace,Thompson,Female,38,Engineering,Senior Developer,2016-11-14,8.1,84108,3,5,3,No,On-site,Master's
+EMP1276,James,Anderson,Male,49,Engineering,Mid Developer,2018-01-19,7.0,73750,1,8,5,No,Hybrid,PhD
+EMP1277,Jordan,Harris,Male,54,Engineering,Junior Developer,2019-01-15,6.0,55000,2,2,0,Yes,On-site,Bachelor's
+EMP1278,Aiden,Brown,Male,58,Marketing,Marketing Specialist,2022-07-24,2.4,58653,3,6,5,No,Hybrid,Bachelor's
+EMP1279,James,Davis,Male,24,Engineering,Senior Developer,2020-04-16,4.7,96204,3,8,9,No,On-site,Bachelor's
+EMP1280,Austin,White,Male,36,HR,HR Generalist,2018-08-11,6.4,52213,1,5,10,Yes,On-site,Bachelor's
+EMP1281,Jake,Thomas,Male,29,Finance,Controller,2020-08-18,4.4,81565,3,6,3,No,Full Remote,Bachelor's
+EMP1282,Dylan,Williams,Male,51,Engineering,Junior Developer,2024-09-17,0.3,57488,3,3,1,Yes,On-site,Bachelor's
+EMP1283,Emma,Thomas,Female,34,HR,HR Manager,2018-04-09,6.7,72320,4,8,2,No,Hybrid,Bachelor's
+EMP1284,Charlotte,Robinson,Female,37,Engineering,Junior Developer,2016-09-08,8.3,49528,3,3,8,No,Hybrid,Bachelor's
+EMP1285,Ryan,Smith,Male,46,Marketing,Content Manager,2024-07-09,0.5,64522,3,8,15,No,Hybrid,Bachelor's
+EMP1286,Connor,Martin,Male,25,Customer Support,Team Lead,2016-08-06,8.4,48776,4,6,10,No,Full Remote,PhD
+EMP1287,Emily,Harris,Female,27,Operations,Process Manager,2021-07-06,3.5,61145,3,7,6,Yes,On-site,High School
+EMP1288,Connor,Jones,Male,37,Engineering,Mid Developer,2018-04-09,6.7,74409,4,7,6,No,Hybrid,Master's
+EMP1289,Abigail,Harris,Female,39,Sales,Sales Manager,2017-08-14,7.4,81932,3,3,5,No,On-site,Bachelor's
+EMP1290,Liam,Garcia,Male,50,Engineering,Junior Developer,2020-03-23,4.8,55083,5,6,6,No,Full Remote,Bachelor's
+EMP1291,Tyler,Taylor,Male,51,Engineering,Mid Developer,2017-12-21,7.0,72479,4,6,1,No,Full Remote,Master's
+EMP1292,Riley,Johnson,Female,35,Operations,Operations Specialist,2024-05-16,0.6,47705,5,3,0,Yes,On-site,PhD
+EMP1293,Grace,Johnson,Female,41,HR,HR Assistant,2017-12-01,7.1,37279,1,8,2,Yes,On-site,Master's
+EMP1294,Liam,Harris,Male,28,Engineering,Junior Developer,2024-01-06,1.0,55000,4,10,4,No,Full Remote,High School
+EMP1295,Lucas,Miller,Male,47,Finance,Financial Analyst,2019-03-05,5.8,48000,4,7,4,No,On-site,High School
+EMP1296,Ava,Smith,Female,26,Marketing,Marketing Coordinator,2017-03-20,7.8,41569,5,7,3,No,Full Remote,PhD
+EMP1297,Sophia,Johnson,Female,51,Sales,Account Executive,2015-07-27,9.4,56017,3,6,13,No,On-site,Bachelor's
+EMP1298,Dylan,White,Male,33,Engineering,Tech Lead,2018-12-20,6.0,117186,3,7,7,No,Full Remote,Bachelor's
+EMP1299,Oliver,Lewis,Male,37,Engineering,Senior Developer,2022-04-05,2.7,94918,4,7,4,No,Hybrid,Bachelor's
+EMP1300,Noah,Wilson,Male,46,Operations,Operations Specialist,2016-07-16,8.5,51066,3,3,3,No,Hybrid,Master's
+EMP1301,Austin,Smith,Male,46,Customer Support,Senior Support Agent,2023-10-08,1.2,48280,3,8,0,No,Hybrid,Master's
+EMP1302,Victoria,Thompson,Female,42,Marketing,Marketing Coordinator,2019-05-10,5.6,38761,3,4,2,Yes,Hybrid,High School
+EMP1303,Olivia,Martin,Female,55,Operations,Operations Specialist,2019-01-04,6.0,52717,4,6,12,No,On-site,Bachelor's
+EMP1304,Aiden,Robinson,Male,25,HR,HR Business Partner,2023-07-27,1.4,60743,4,5,9,No,Hybrid,Master's
+EMP1305,Emily,Garcia,Female,33,Engineering,Junior Developer,2017-08-26,7.4,52107,4,5,6,No,On-site,PhD
+EMP1306,Nathan,Clark,Male,58,Engineering,Senior Developer,2016-08-05,8.4,97270,5,7,0,No,Full Remote,PhD
+EMP1307,Chloe,Taylor,Female,33,Sales,Account Executive,2020-07-01,4.5,52870,5,3,6,Yes,Hybrid,High School
+EMP1308,Emma,Anderson,Female,34,Operations,Operations Analyst,2024-01-17,1.0,36417,4,5,0,No,On-site,Master's
+EMP1309,Olivia,Smith,Female,31,Operations,Operations Manager,2021-07-30,3.4,77115,4,7,4,Yes,Full Remote,Bachelor's
+EMP1310,Ava,Thomas,Female,47,Operations,Operations Analyst,2021-07-28,3.4,36323,3,9,7,No,Full Remote,Bachelor's
+EMP1311,Ella,Anderson,Female,33,Operations,Operations Manager,2022-12-06,2.1,74254,4,1,7,No,On-site,Master's
+EMP1312,Jake,Garcia,Male,46,Engineering,Mid Developer,2018-06-10,6.6,77300,3,7,6,No,Hybrid,Bachelor's
+EMP1313,Jake,Jackson,Male,58,Engineering,Senior Developer,2015-05-13,9.6,90266,3,8,1,No,Hybrid,Master's
+EMP1314,Jake,Brown,Male,53,Engineering,Senior Developer,2016-07-30,8.4,95174,3,8,8,No,Full Remote,Bachelor's
+EMP1315,Mia,Williams,Female,43,Operations,Operations Specialist,2020-01-04,5.0,41827,4,4,4,Yes,On-site,Bachelor's
+EMP1316,James,Johnson,Male,46,Operations,Process Manager,2019-11-30,5.1,62358,5,5,7,No,On-site,Master's
+EMP1317,Elizabeth,Thomas,Female,56,Sales,Sales Representative,2019-03-18,5.8,40865,3,7,2,No,On-site,Master's
+EMP1318,Ethan,Harris,Male,26,HR,HR Business Partner,2023-12-18,1.0,56036,4,6,4,No,Hybrid,Bachelor's
+EMP1319,Noah,Anderson,Male,32,Engineering,Junior Developer,2024-12-15,0.0,55000,4,5,10,No,On-site,Bachelor's
+EMP1320,Ryan,Lewis,Male,52,Customer Support,Team Lead,2022-11-25,2.1,46670,3,3,5,Yes,On-site,Bachelor's
+EMP1321,Mia,Johnson,Female,28,Operations,Operations Specialist,2018-09-18,6.3,46793,4,3,0,Yes,On-site,Master's
+EMP1322,Evelyn,Taylor,Female,37,Customer Support,Senior Support Agent,2016-01-28,8.9,39824,4,4,5,No,On-site,Bachelor's
+EMP1323,Emma,White,Female,27,Operations,Operations Specialist,2018-04-21,6.7,44927,3,3,3,No,Hybrid,High School
+EMP1324,Ethan,Taylor,Male,27,Operations,Operations Specialist,2020-04-23,4.7,52777,2,5,3,No,Hybrid,Bachelor's
+EMP1325,Harper,Williams,Female,56,Engineering,Senior Developer,2019-05-07,5.7,87586,4,3,1,No,Hybrid,Bachelor's
+EMP1326,Sofia,Harris,Female,38,Finance,Finance Manager,2017-07-15,7.5,75022,2,7,8,No,Full Remote,Master's
+EMP1327,Noah,Thomas,Male,56,Sales,Sales Manager,2019-08-23,5.4,92832,4,5,5,No,Hybrid,Bachelor's
+EMP1328,Grace,White,Female,56,Customer Support,Support Manager,2022-09-15,2.3,60734,2,7,5,No,On-site,Bachelor's
+EMP1329,Dylan,Johnson,Male,54,Operations,Process Manager,2021-05-28,3.6,58573,1,9,12,No,On-site,Master's
+EMP1330,Liam,Harris,Male,33,Operations,Operations Analyst,2016-11-15,8.1,41176,4,5,5,No,On-site,Bachelor's
+EMP1331,Ava,White,Female,34,Operations,Operations Specialist,2024-03-23,0.8,47163,4,6,3,No,Hybrid,PhD
+EMP1332,Noah,Jackson,Male,57,Engineering,Senior Developer,2019-06-16,5.5,94428,4,6,1,No,On-site,Bachelor's
+EMP1333,Hunter,Clark,Male,55,Operations,Process Manager,2023-10-07,1.2,64162,4,3,2,No,Hybrid,Bachelor's
+EMP1334,Liam,Clark,Male,28,Engineering,Mid Developer,2023-10-24,1.2,68395,4,1,8,Yes,Hybrid,Bachelor's
+EMP1335,Harper,Jackson,Female,53,Operations,Operations Analyst,2021-06-01,3.6,41210,1,1,6,Yes,Hybrid,Bachelor's
+EMP1336,Olivia,Jackson,Female,43,Operations,Process Manager,2022-09-29,2.3,57922,4,5,11,No,On-site,Master's
+EMP1337,Ryan,Taylor,Male,41,Engineering,Mid Developer,2018-02-22,6.9,75110,4,5,4,No,On-site,Master's
+EMP1338,Lucas,Taylor,Male,50,Operations,Operations Specialist,2023-09-06,1.3,47095,4,5,0,No,Hybrid,Bachelor's
+EMP1339,Mason,Harris,Male,35,Sales,Senior AE,2024-03-28,0.8,78811,4,4,5,No,Hybrid,Bachelor's
+EMP1340,Olivia,Thompson,Female,32,Sales,Account Executive,2015-09-26,9.3,58434,4,4,14,No,Full Remote,Master's
+EMP1341,Ethan,Miller,Male,34,Operations,Operations Manager,2024-05-21,0.6,75830,3,4,4,Yes,Full Remote,High School
+EMP1342,Charlotte,Wilson,Female,45,Engineering,Tech Lead,2024-03-27,0.8,99538,3,7,15,No,On-site,Master's
+EMP1343,Nathan,Martin,Male,50,Engineering,Junior Developer,2016-12-28,8.0,59085,3,9,14,No,Hybrid,Bachelor's
+EMP1344,Mia,Wilson,Female,27,Engineering,Junior Developer,2018-03-13,6.8,51549,3,6,7,Yes,On-site,Master's
+EMP1345,Logan,Davis,Male,35,Sales,Sales Representative,2018-01-07,7.0,45000,4,5,4,No,Hybrid,Master's
+EMP1346,Jordan,Jones,Male,33,Operations,Operations Analyst,2021-09-28,3.3,40000,1,4,16,No,Hybrid,Master's
+EMP1347,Harper,White,Female,46,Customer Support,Team Lead,2024-07-20,0.5,50683,4,7,13,No,Hybrid,Master's
+EMP1348,Victoria,Brown,Female,22,Engineering,Mid Developer,2020-09-26,4.3,69818,3,6,2,No,On-site,Bachelor's
+EMP1349,Evelyn,Brown,Female,52,HR,HR Manager,2015-09-19,9.3,71040,5,6,0,No,Hybrid,Bachelor's
+EMP1350,Charlotte,Jones,Female,55,Sales,Sales Representative,2023-08-02,1.4,41365,5,5,0,Yes,On-site,Master's
+EMP1351,Abigail,Jones,Female,23,Customer Support,Team Lead,2022-05-08,2.7,48005,4,9,0,No,On-site,Bachelor's
+EMP1352,Jake,Clark,Male,34,Marketing,Content Manager,2018-11-06,6.2,63949,1,7,8,No,Hybrid,Bachelor's
+EMP1353,Emily,Thompson,Female,41,Customer Support,Senior Support Agent,2024-06-24,0.5,43001,4,4,9,No,Hybrid,Bachelor's
+EMP1354,Isabella,Wilson,Female,57,Engineering,Mid Developer,2023-07-22,1.4,74475,3,7,7,No,On-site,Master's
+EMP1355,Nathan,Davis,Male,41,Customer Support,Senior Support Agent,2019-09-19,5.3,45012,4,6,9,No,Hybrid,Bachelor's
+EMP1356,Sofia,Brown,Female,52,Engineering,Mid Developer,2015-08-08,9.4,68957,3,3,4,No,On-site,High School
+EMP1357,Brandon,Brown,Male,46,Customer Support,Senior Support Agent,2020-12-10,4.1,40618,4,8,12,No,Full Remote,Master's
+EMP1358,Mason,Anderson,Male,48,Engineering,Tech Lead,2021-05-21,3.6,114810,4,4,1,No,On-site,Bachelor's
+EMP1359,Noah,Martin,Male,43,Engineering,Tech Lead,2022-01-28,2.9,114642,4,7,1,No,Hybrid,High School
+EMP1360,Harper,Miller,Female,32,Sales,Senior AE,2021-06-18,3.5,72417,3,3,7,No,On-site,High School
+EMP1361,Lily,Jackson,Female,49,Finance,Finance Manager,2020-05-09,4.6,69969,5,3,8,Yes,Full Remote,Bachelor's
+EMP1362,Ryan,Thompson,Male,34,Sales,Account Executive,2015-03-15,9.8,63699,5,6,1,No,Hybrid,Bachelor's
+EMP1363,Evelyn,Jones,Female,28,HR,HR Generalist,2019-04-21,5.7,50846,3,9,0,No,Full Remote,High School
+EMP1364,Sofia,Thompson,Female,55,Marketing,Content Manager,2018-10-15,6.2,68104,4,8,6,No,Full Remote,PhD
+EMP1365,Emily,Miller,Female,32,Sales,Senior AE,2024-02-08,0.9,69198,3,5,12,Yes,On-site,Bachelor's
+EMP1366,Jake,Thompson,Male,32,Marketing,Marketing Specialist,2016-05-19,8.6,46849,5,8,8,No,On-site,High School
+EMP1367,Chloe,Lewis,Female,25,Engineering,Mid Developer,2021-08-29,3.3,68094,5,6,11,No,On-site,High School
+EMP1368,Connor,Harris,Male,46,Finance,Financial Analyst,2016-05-21,8.6,53365,3,9,10,No,Hybrid,Bachelor's
+EMP1369,Jack,White,Male,28,Engineering,Tech Lead,2022-06-06,2.6,109909,1,7,7,No,Hybrid,Master's
+EMP1370,Sophia,Thompson,Female,29,Customer Support,Team Lead,2018-03-03,6.8,50322,4,3,0,Yes,Full Remote,Bachelor's
+EMP1371,Grace,Miller,Female,44,Marketing,Marketing Manager,2022-11-21,2.1,82803,3,4,12,No,Hybrid,PhD
+EMP1372,Abigail,Davis,Female,22,Finance,Finance Manager,2015-02-22,9.9,75335,5,4,8,No,On-site,Master's
+EMP1373,Noah,Thompson,Male,26,Finance,Senior Analyst,2023-02-11,1.9,65531,3,6,3,No,On-site,Master's
+EMP1374,Evelyn,Wilson,Female,51,Finance,Finance Manager,2015-07-25,9.4,68817,3,3,0,No,Full Remote,Bachelor's
+EMP1375,Lily,Brown,Female,28,Sales,Senior AE,2024-07-18,0.5,70445,2,1,2,Yes,On-site,Master's
+EMP1376,Ryan,Thomas,Male,50,Engineering,Mid Developer,2021-12-21,3.0,72098,5,2,2,No,On-site,Bachelor's
+EMP1377,Mia,Brown,Female,47,Finance,Finance Manager,2019-06-28,5.5,75915,4,4,7,No,Hybrid,Master's
+EMP1378,Mia,Brown,Female,30,Sales,Sales Manager,2022-10-22,2.2,93330,2,4,3,No,On-site,Bachelor's
+EMP1379,Victoria,Harris,Female,33,Sales,Sales Representative,2021-11-08,3.1,44896,5,2,7,No,Full Remote,Master's
+EMP1380,Jordan,Martin,Male,29,Operations,Operations Specialist,2024-12-14,0.0,52290,3,5,12,No,Full Remote,Bachelor's
+EMP1381,Emma,Thompson,Female,58,Finance,CFO,2023-02-12,1.9,95750,4,5,5,No,On-site,Bachelor's
+EMP1382,Connor,Davis,Male,52,Sales,Senior AE,2018-11-17,6.1,78682,3,4,0,No,Hybrid,Bachelor's
+EMP1383,James,Garcia,Male,54,Sales,Senior AE,2024-07-08,0.5,74150,3,8,3,No,Hybrid,Bachelor's
+EMP1384,Abigail,Davis,Female,43,Sales,Sales Representative,2018-02-13,6.9,40681,4,5,5,Yes,Hybrid,Bachelor's
+EMP1385,Noah,Harris,Male,50,Sales,Sales Manager,2023-12-26,1.0,96475,5,4,2,No,Full Remote,Bachelor's
+EMP1386,Sophia,Martin,Female,23,Sales,Account Executive,2016-02-25,8.9,49318,2,6,3,Yes,Hybrid,Master's
+EMP1387,Grace,Robinson,Female,35,Engineering,Senior Developer,2022-05-05,2.7,85670,5,2,0,No,Hybrid,High School
+EMP1388,Tyler,Anderson,Male,57,Sales,Account Executive,2023-08-10,1.4,59145,4,5,11,No,Hybrid,Master's
+EMP1389,Sophia,Brown,Female,36,Customer Support,Support Agent,2015-01-09,10.0,33254,4,9,0,No,On-site,Bachelor's
+EMP1390,Sophia,Johnson,Female,32,Finance,Senior Analyst,2020-07-09,4.5,54646,4,4,7,No,On-site,Bachelor's
+EMP1391,Mason,Brown,Male,47,Customer Support,Senior Support Agent,2017-06-02,7.6,49278,2,8,3,No,On-site,Master's
+EMP1392,Connor,Johnson,Male,29,HR,HR Generalist,2023-08-29,1.3,50142,4,5,11,No,Hybrid,Bachelor's
+EMP1393,Jordan,Smith,Male,55,Sales,Sales Representative,2023-04-04,1.7,46008,3,6,12,Yes,On-site,Master's
+EMP1394,Grace,Garcia,Female,33,Marketing,Marketing Manager,2023-03-12,1.8,75473,3,6,9,Yes,On-site,Master's
+EMP1395,Grace,Jackson,Female,48,Engineering,Tech Lead,2021-10-30,3.2,107382,3,5,9,No,Hybrid,PhD
+EMP1396,Sofia,Jones,Female,30,Sales,Senior AE,2019-08-18,5.4,74714,3,6,1,No,Hybrid,Master's
+EMP1397,Chloe,Miller,Female,34,Sales,Senior AE,2017-05-08,7.7,67424,4,9,7,No,Hybrid,Master's
+EMP1398,Brandon,Robinson,Male,42,Marketing,Marketing Coordinator,2022-12-19,2.0,46542,3,3,1,Yes,Hybrid,Bachelor's
+EMP1399,Chloe,Taylor,Female,49,HR,HR Assistant,2024-01-24,0.9,34238,4,5,0,Yes,Hybrid,High School
+EMP1400,Mason,Wilson,Male,32,Sales,Sales Representative,2018-03-19,6.8,48645,3,8,6,No,Full Remote,High School
+EMP1401,Charlotte,Robinson,Female,24,Sales,Senior AE,2019-01-09,6.0,79708,5,2,0,Yes,On-site,Master's
+EMP1402,Austin,Jackson,Male,37,Engineering,Mid Developer,2020-09-23,4.3,79815,1,7,8,No,On-site,Bachelor's
+EMP1403,Dylan,Jackson,Male,48,Sales,Sales Manager,2023-11-03,1.2,88782,5,4,0,No,Hybrid,Bachelor's
+EMP1404,Aiden,Miller,Male,50,Customer Support,Support Agent,2024-04-22,0.7,36944,3,5,0,Yes,Hybrid,Master's
+EMP1405,Victoria,Robinson,Female,34,Operations,Operations Manager,2023-09-15,1.3,68890,3,1,0,Yes,Hybrid,PhD
+EMP1406,Ethan,Garcia,Male,54,Engineering,Mid Developer,2016-05-03,8.7,72104,3,7,10,No,Hybrid,Bachelor's
+EMP1407,Ethan,Clark,Male,38,Engineering,Mid Developer,2015-01-24,9.9,75546,1,3,0,Yes,On-site,Bachelor's
+EMP1408,Ryan,Lewis,Male,25,Marketing,Marketing Manager,2023-09-04,1.3,80379,3,7,6,No,Hybrid,Master's
+EMP1409,Victoria,Robinson,Female,44,HR,HR Generalist,2015-10-26,9.2,48758,4,5,10,No,Hybrid,Bachelor's
+EMP1410,Brandon,Garcia,Male,48,Sales,Account Executive,2021-02-02,3.9,60095,3,8,2,No,Full Remote,Bachelor's
+EMP1411,Ryan,Anderson,Male,45,Operations,Operations Manager,2018-04-17,6.7,75917,4,5,5,No,On-site,Bachelor's
+EMP1412,Liam,Thomas,Male,50,Finance,Financial Analyst,2017-09-11,7.3,48901,4,9,8,No,Hybrid,Master's
+EMP1413,Ryan,Jackson,Male,29,Finance,Senior Analyst,2019-04-30,5.7,69522,4,6,6,No,On-site,High School
+EMP1414,Grace,Thompson,Female,50,Engineering,Senior Developer,2020-06-16,4.5,82902,4,10,7,No,Full Remote,Bachelor's
+EMP1415,Ethan,Robinson,Male,56,Engineering,Junior Developer,2015-01-31,9.9,58038,3,7,5,No,Hybrid,Master's
+EMP1416,Connor,Brown,Male,35,Engineering,Junior Developer,2021-01-11,4.0,55000,4,6,8,No,On-site,Master's
+EMP1417,Ava,Jones,Female,23,Engineering,Senior Developer,2020-02-24,4.9,89938,3,5,0,Yes,Full Remote,Bachelor's
+EMP1418,Chloe,Williams,Female,58,Sales,Sales Manager,2024-03-19,0.8,84976,4,4,1,No,Hybrid,Master's
+EMP1419,Abigail,Smith,Female,46,Operations,Operations Specialist,2022-07-20,2.5,53768,3,3,7,Yes,On-site,High School
+EMP1420,Noah,Thomas,Male,54,Engineering,Mid Developer,2016-03-10,8.8,66112,1,4,11,Yes,On-site,Master's
+EMP1421,Sofia,Jackson,Female,47,Sales,Senior AE,2024-03-21,0.8,73702,3,7,6,No,Hybrid,Bachelor's
+EMP1422,Chloe,Taylor,Female,31,HR,HR Manager,2018-05-05,6.7,73125,2,8,0,No,On-site,Master's
+EMP1423,Emma,Robinson,Female,57,Engineering,Senior Developer,2016-08-02,8.4,81569,5,2,5,Yes,Hybrid,Bachelor's
+EMP1424,Jack,Miller,Male,44,Finance,Finance Manager,2017-05-17,7.6,64872,3,7,4,No,Hybrid,Bachelor's
+EMP1425,Ethan,Davis,Male,38,Marketing,Marketing Coordinator,2017-03-06,7.8,43252,3,3,4,Yes,On-site,Bachelor's
+EMP1426,Austin,Harris,Male,57,Engineering,Senior Developer,2015-10-27,9.2,92113,4,7,4,No,Full Remote,High School
+EMP1427,Abigail,Thomas,Female,30,HR,HR Generalist,2022-07-12,2.5,44516,3,5,9,Yes,Hybrid,PhD
+EMP1428,Ella,Harris,Female,43,Engineering,Senior Developer,2021-11-29,3.1,85156,4,5,11,No,Full Remote,Bachelor's
+EMP1429,Lily,Garcia,Female,22,Finance,Senior Analyst,2018-07-06,6.5,63981,3,3,15,Yes,On-site,Bachelor's
+EMP1430,Isabella,Anderson,Female,52,Operations,Operations Specialist,2020-03-10,4.8,47726,5,8,7,No,Hybrid,Bachelor's
+EMP1431,Aiden,Jones,Male,56,Engineering,Tech Lead,2017-03-15,7.8,108542,3,7,9,No,On-site,High School
+EMP1432,James,Thompson,Male,23,Sales,Sales Manager,2024-02-11,0.9,96692,3,8,13,No,Hybrid,Bachelor's
+EMP1433,Austin,Wilson,Male,56,Engineering,Mid Developer,2021-01-19,4.0,76779,4,4,7,No,On-site,Bachelor's
+EMP1434,Jake,Taylor,Male,30,Customer Support,Support Agent,2020-03-18,4.8,35000,1,6,0,No,Full Remote,Bachelor's
+EMP1435,Logan,Lewis,Male,32,Marketing,Content Manager,2023-06-29,1.5,76145,3,3,10,No,Hybrid,Bachelor's
+EMP1436,Jordan,Thomas,Male,24,Engineering,Mid Developer,2017-06-15,7.5,67075,5,4,10,No,Hybrid,Bachelor's
+EMP1437,Oliver,Miller,Male,55,Engineering,Mid Developer,2023-11-16,1.1,66318,5,8,8,No,Hybrid,Bachelor's
+EMP1438,Oliver,Anderson,Male,28,Operations,Process Manager,2022-11-22,2.1,61475,4,8,3,No,Hybrid,Bachelor's
+EMP1439,Victoria,Robinson,Female,58,Sales,Sales Manager,2016-12-13,8.1,91563,4,5,2,No,Hybrid,Master's
+EMP1440,Brandon,Wilson,Male,46,Operations,Operations Specialist,2017-07-01,7.5,56025,2,3,8,No,Hybrid,Master's
+EMP1441,Ella,Lewis,Female,22,Finance,Financial Analyst,2020-08-17,4.4,47108,4,6,2,No,Hybrid,Bachelor's
+EMP1442,Charlotte,Jones,Female,33,Customer Support,Support Agent,2016-10-06,8.2,32514,3,6,5,No,Full Remote,Bachelor's
+EMP1443,Sophia,Martin,Female,52,HR,HR Generalist,2020-05-16,4.6,46853,3,2,12,Yes,On-site,High School
+EMP1444,Lucas,Clark,Male,32,Customer Support,Support Agent,2016-07-05,8.5,35866,4,8,1,No,Full Remote,Bachelor's
+EMP1445,Ethan,Wilson,Male,33,Operations,Operations Specialist,2020-10-17,4.2,52498,3,4,14,No,Hybrid,Bachelor's
+EMP1446,Jack,Williams,Male,35,HR,HR Generalist,2020-01-14,5.0,49534,4,4,2,No,Hybrid,Bachelor's
+EMP1447,Connor,Lewis,Male,31,Finance,Senior Analyst,2023-11-29,1.1,58633,3,7,10,No,On-site,Master's
+EMP1448,Mia,Anderson,Female,51,Marketing,Content Manager,2021-09-09,3.3,68348,5,7,0,No,Hybrid,Bachelor's
+EMP1449,Brandon,Thompson,Male,48,Operations,Process Manager,2024-04-08,0.7,59631,3,8,8,Yes,Full Remote,Bachelor's
+EMP1450,Austin,Thompson,Male,29,Marketing,Content Manager,2016-01-17,9.0,64394,4,9,10,No,Full Remote,Master's
+EMP1451,Connor,Thompson,Male,48,Operations,Operations Specialist,2019-02-26,5.8,51952,2,6,7,No,On-site,Bachelor's
+EMP1452,Elizabeth,Thomas,Female,58,Finance,Senior Analyst,2016-02-05,8.9,59855,5,2,2,No,On-site,PhD
+EMP1453,Jack,Lewis,Male,56,Sales,Senior AE,2019-08-01,5.4,72078,3,6,3,No,Full Remote,Master's
+EMP1454,Jake,Thompson,Male,29,Engineering,Senior Developer,2020-10-29,4.2,98303,3,2,13,Yes,On-site,Master's
+EMP1455,Lily,Thomas,Female,28,Engineering,Mid Developer,2016-09-25,8.3,66166,2,8,14,No,Hybrid,Bachelor's
+EMP1456,Riley,Wilson,Female,47,HR,HR Generalist,2023-06-20,1.5,42593,4,6,6,No,Hybrid,Bachelor's
+EMP1457,Harper,Taylor,Female,58,Operations,Process Manager,2018-11-11,6.1,62234,4,9,8,No,Full Remote,Master's
+EMP1458,Logan,Harris,Male,32,Marketing,Marketing Manager,2016-02-15,8.9,82531,2,5,5,Yes,Hybrid,Bachelor's
+EMP1459,Ethan,Jackson,Male,22,HR,HR Assistant,2024-01-08,1.0,38000,5,8,5,Yes,Full Remote,PhD
+EMP1460,Ava,Williams,Female,38,Engineering,Mid Developer,2017-06-27,7.5,66516,4,6,5,No,On-site,PhD
+EMP1461,Riley,Thompson,Female,40,Engineering,Tech Lead,2022-12-24,2.0,108398,4,6,0,Yes,On-site,Bachelor's
+EMP1462,Sofia,Smith,Female,34,Sales,Account Executive,2024-07-15,0.5,60121,3,6,11,No,Hybrid,High School
+EMP1463,Hunter,Garcia,Male,24,Engineering,Senior Developer,2019-01-13,6.0,87394,3,5,6,No,Full Remote,Bachelor's
+EMP1464,Elizabeth,Thomas,Female,47,Sales,Account Executive,2019-07-19,5.5,57573,3,5,2,No,On-site,High School
+EMP1465,Austin,Taylor,Male,57,Marketing,Marketing Specialist,2021-07-15,3.5,53007,3,5,10,No,On-site,Bachelor's
+EMP1466,Tyler,Jackson,Male,58,Engineering,Senior Developer,2015-01-20,9.9,99282,5,7,13,No,Hybrid,Bachelor's
+EMP1467,Brandon,Taylor,Male,43,Engineering,Mid Developer,2016-04-24,8.7,68403,1,6,4,No,On-site,Master's
+EMP1468,Sofia,Jackson,Female,58,Finance,Senior Analyst,2020-06-03,4.6,57100,5,7,0,No,On-site,Bachelor's
+EMP1469,Victoria,Smith,Female,52,Finance,Senior Analyst,2016-04-21,8.7,49554,1,9,10,No,On-site,Bachelor's
+EMP1470,Ryan,White,Male,44,Engineering,Engineering Manager,2020-10-16,4.2,125957,2,6,3,No,On-site,Bachelor's
+EMP1471,Ava,Jackson,Female,43,Sales,Sales Manager,2015-11-08,9.1,82498,2,3,7,Yes,Hybrid,Bachelor's
+EMP1472,Mia,Miller,Female,53,Marketing,Marketing Specialist,2023-04-08,1.7,49936,3,7,4,No,On-site,Bachelor's
+EMP1473,Logan,Lewis,Male,44,Sales,Account Executive,2016-09-30,8.3,55760,5,5,8,No,Full Remote,High School
+EMP1474,Riley,Smith,Female,56,Engineering,Tech Lead,2015-06-23,9.5,109355,5,6,7,No,Hybrid,Master's
+EMP1475,Ella,Garcia,Female,54,Sales,Sales Representative,2018-02-21,6.9,41932,4,9,2,No,Full Remote,Bachelor's
+EMP1476,Ella,Robinson,Female,24,Customer Support,Team Lead,2020-08-20,4.4,42838,4,4,1,No,On-site,Bachelor's
+EMP1477,Brandon,Harris,Male,42,HR,HR Generalist,2022-09-24,2.3,56127,4,4,5,Yes,On-site,Bachelor's
+EMP1478,Ryan,Thomas,Male,38,Finance,Senior Analyst,2017-02-05,7.9,67755,4,5,7,No,Hybrid,Bachelor's
+EMP1479,Emily,Garcia,Female,53,Operations,Operations Manager,2019-10-03,5.2,65304,4,6,0,No,Hybrid,Master's
+EMP1480,Sofia,Garcia,Female,58,Operations,Process Manager,2016-06-21,8.5,64503,4,7,2,No,On-site,Master's
+EMP1481,Austin,White,Male,46,Sales,Account Executive,2017-03-14,7.8,60060,4,4,11,Yes,On-site,Bachelor's
+EMP1482,Ethan,White,Male,53,Engineering,Tech Lead,2016-07-04,8.5,108696,3,9,14,No,On-site,Bachelor's
+EMP1483,Ella,Taylor,Female,38,Sales,VP Sales,2021-04-21,3.7,106554,3,3,0,Yes,Full Remote,Bachelor's
+EMP1484,Aiden,Martin,Male,28,Finance,Financial Analyst,2020-01-17,5.0,50416,1,3,15,No,Hybrid,Bachelor's
+EMP1485,Emily,Smith,Female,48,Operations,Operations Manager,2016-05-11,8.6,75665,1,6,7,No,Hybrid,Bachelor's
+EMP1486,Jack,Thomas,Male,42,Customer Support,Senior Support Agent,2022-07-20,2.5,52449,3,8,6,No,On-site,Bachelor's
+EMP1487,Dylan,Lewis,Male,40,Sales,Sales Manager,2020-03-14,4.8,92089,4,7,5,No,Full Remote,Bachelor's
+EMP1488,Lily,Lewis,Female,58,Finance,Finance Manager,2019-07-16,5.5,70227,4,5,4,Yes,Full Remote,Bachelor's
+EMP1489,Evelyn,Wilson,Female,47,Marketing,CMO,2018-01-16,7.0,92246,4,8,2,No,On-site,Master's
+EMP1490,Lily,Garcia,Female,33,HR,HR Assistant,2024-07-30,0.4,34270,4,3,8,No,On-site,PhD
+EMP1491,Mason,Garcia,Male,47,Engineering,Mid Developer,2016-02-26,8.8,73609,3,4,7,Yes,On-site,Bachelor's
+EMP1492,James,Jackson,Male,55,Engineering,Senior Developer,2023-07-31,1.4,94279,5,4,2,No,Full Remote,Master's
+EMP1493,Dylan,Taylor,Male,36,Sales,Senior AE,2017-10-10,7.2,86350,3,7,7,No,Hybrid,Bachelor's
+EMP1494,James,Johnson,Male,44,Engineering,Tech Lead,2024-08-25,0.4,110681,5,7,7,No,On-site,Bachelor's
+EMP1495,Chloe,Harris,Female,30,Sales,Senior AE,2022-10-28,2.2,76187,3,6,6,No,Hybrid,Master's
+EMP1496,Grace,Robinson,Female,41,Finance,Finance Manager,2018-11-23,6.1,72467,3,6,10,No,Full Remote,Bachelor's
+EMP1497,Harper,Jones,Female,41,Sales,Senior AE,2015-02-13,9.9,69204,4,8,10,No,On-site,Bachelor's
+EMP1498,Chloe,Smith,Female,53,Engineering,Senior Developer,2023-06-22,1.5,90281,1,4,5,Yes,Hybrid,Bachelor's
+EMP1499,James,Robinson,Male,45,Sales,Senior AE,2017-02-11,7.9,74152,3,9,3,No,Hybrid,Bachelor's
+EMP1500,Dylan,Jackson,Male,36,Engineering,Senior Developer,2017-12-13,7.1,93624,3,4,0,Yes,Hybrid,Bachelor's
+EMP1501,Evelyn,Robinson,Female,39,HR,HR Business Partner,2019-08-19,5.4,55885,4,1,0,Yes,Full Remote,Bachelor's
+EMP1502,Riley,Harris,Female,39,Engineering,Mid Developer,2022-11-09,2.1,65491,3,4,0,Yes,Full Remote,High School
+EMP1503,Ethan,Brown,Male,40,Sales,Senior AE,2018-01-07,7.0,77011,2,1,4,Yes,Hybrid,High School
+EMP1504,Lucas,Smith,Male,53,Marketing,Marketing Specialist,2017-06-08,7.6,56536,3,6,6,No,Hybrid,Master's
+EMP1505,Sofia,Johnson,Female,43,Engineering,Junior Developer,2015-11-25,9.1,53211,2,5,11,No,Full Remote,Master's
+EMP1506,Austin,Martin,Male,33,HR,HR Manager,2017-02-26,7.8,74359,3,6,5,No,Hybrid,Bachelor's
+EMP1507,Liam,Davis,Male,46,Engineering,Junior Developer,2023-08-25,1.4,57658,3,4,3,No,Hybrid,PhD
+EMP1508,Tyler,Brown,Male,55,Sales,Senior AE,2022-06-20,2.5,79386,3,6,0,No,Hybrid,Master's
+EMP1509,Abigail,Garcia,Female,24,Engineering,Senior Developer,2023-05-09,1.7,91997,2,4,3,No,Hybrid,Master's
+EMP1510,Nathan,Johnson,Male,35,Sales,Senior AE,2016-04-07,8.7,82713,5,5,8,No,Hybrid,High School
+EMP1511,Victoria,Brown,Female,47,Engineering,Senior Developer,2023-11-07,1.2,84443,3,4,6,No,Hybrid,Master's
+EMP1512,Nathan,Williams,Male,37,Sales,Account Executive,2016-10-07,8.2,61887,3,2,6,No,On-site,Bachelor's
+EMP1513,Oliver,Thomas,Male,31,Operations,Operations Specialist,2022-11-12,2.1,49074,3,5,6,No,Full Remote,Bachelor's
+EMP1514,Chloe,Thomas,Female,50,Sales,Senior AE,2023-03-23,1.8,70493,3,7,4,No,Hybrid,Bachelor's
+EMP1515,Jordan,Harris,Male,57,Finance,Senior Analyst,2018-04-22,6.7,57545,2,7,7,No,Hybrid,Bachelor's
+EMP1516,Abigail,Harris,Female,39,Operations,Process Manager,2024-09-23,0.3,60779,4,5,2,No,Hybrid,High School
+EMP1517,Tyler,Taylor,Male,38,Engineering,Senior Developer,2021-01-27,3.9,90042,3,8,3,No,Full Remote,Master's
+EMP1518,Mia,Smith,Female,45,Engineering,Senior Developer,2023-09-14,1.3,86080,3,7,3,No,Full Remote,PhD
+EMP1519,Charlotte,Thompson,Female,53,Engineering,Tech Lead,2023-08-03,1.4,103651,4,5,5,No,Hybrid,Master's
+EMP1520,Liam,Thompson,Male,26,Marketing,Marketing Coordinator,2015-06-29,9.5,42000,5,6,5,No,Full Remote,Master's
+EMP1521,Liam,Martin,Male,34,Customer Support,Team Lead,2016-02-09,8.9,54778,5,7,12,Yes,Hybrid,Bachelor's
+EMP1522,Grace,Lewis,Female,38,Sales,VP Sales,2015-07-21,9.5,96733,3,6,9,No,Full Remote,PhD
+EMP1523,Jordan,Williams,Male,51,HR,HR Assistant,2023-12-25,1.0,38000,5,5,2,No,Hybrid,Master's
+EMP1524,Emily,Johnson,Female,39,Operations,Operations Specialist,2020-12-06,4.1,44530,4,6,0,Yes,Hybrid,PhD
+EMP1525,Liam,Davis,Male,56,HR,HR Assistant,2019-04-28,5.7,40842,4,4,3,Yes,Hybrid,Bachelor's
+EMP1526,Austin,Robinson,Male,48,Finance,Controller,2023-05-15,1.6,96051,3,5,0,Yes,Hybrid,Bachelor's
+EMP1527,Lily,Brown,Female,32,Customer Support,Team Lead,2023-11-20,1.1,45831,3,7,5,No,Hybrid,Bachelor's
+EMP1528,Emily,Anderson,Female,57,Engineering,Senior Developer,2018-08-22,6.4,88160,2,8,0,No,Hybrid,Master's
+EMP1529,Riley,Davis,Female,58,Engineering,Mid Developer,2021-02-12,3.9,68269,4,8,9,No,On-site,Bachelor's
+EMP1530,Sofia,Jackson,Female,22,Engineering,Mid Developer,2023-02-22,1.9,65317,4,3,2,No,Full Remote,Bachelor's
+EMP1531,Emma,Taylor,Female,36,Engineering,Tech Lead,2017-05-29,7.6,111278,2,5,8,Yes,On-site,Master's
+EMP1532,Chloe,Thompson,Female,57,Finance,Finance Manager,2021-05-26,3.6,83026,3,7,8,No,Full Remote,Bachelor's
+EMP1533,Aiden,Thomas,Male,37,Marketing,Marketing Coordinator,2017-08-12,7.4,49561,4,8,6,No,Hybrid,Bachelor's
+EMP1534,Noah,Anderson,Male,52,Engineering,Mid Developer,2016-12-09,8.1,81811,3,9,11,No,On-site,Master's
+EMP1535,Hunter,Taylor,Male,24,Finance,Finance Manager,2023-03-13,1.8,78772,4,6,1,No,Hybrid,Master's
+EMP1536,Emily,White,Female,48,Operations,Operations Manager,2024-09-24,0.3,62920,4,4,13,No,On-site,Master's
+EMP1537,Dylan,Johnson,Male,41,Engineering,Junior Developer,2020-11-17,4.1,55000,4,4,6,Yes,Hybrid,Bachelor's
+EMP1538,Lucas,Johnson,Male,47,HR,HR Assistant,2019-12-31,5.0,39442,2,7,6,No,Hybrid,High School
+EMP1539,Evelyn,Jackson,Female,31,Finance,Financial Analyst,2016-06-25,8.5,44490,3,9,8,No,On-site,Bachelor's
+EMP1540,Ava,Jackson,Female,54,Engineering,Senior Developer,2019-11-15,5.1,89740,2,3,5,Yes,Full Remote,Bachelor's
+EMP1541,Elizabeth,Clark,Female,34,Operations,Operations Specialist,2021-04-17,3.7,58075,4,4,0,No,Hybrid,High School
+EMP1542,Abigail,Clark,Female,27,Customer Support,Senior Support Agent,2016-04-05,8.7,41211,5,8,12,No,Hybrid,Bachelor's
+EMP1543,Jack,Garcia,Male,44,Engineering,Tech Lead,2021-11-29,3.1,108012,3,8,9,No,On-site,Master's
+EMP1544,Olivia,Davis,Female,34,Engineering,Tech Lead,2022-09-08,2.3,104566,5,10,8,No,On-site,Bachelor's
+EMP1545,Logan,Lewis,Male,31,Sales,Account Executive,2024-09-28,0.3,63091,4,6,6,No,Hybrid,Bachelor's
+EMP1546,Jack,Harris,Male,52,Finance,Financial Analyst,2015-04-04,9.7,48000,5,7,2,No,On-site,Bachelor's
+EMP1547,Chloe,Martin,Female,31,Customer Support,Senior Support Agent,2022-10-18,2.2,37751,3,4,10,Yes,Hybrid,Master's
+EMP1548,Aiden,Garcia,Male,25,Sales,Sales Manager,2018-03-09,6.8,94202,3,5,4,No,On-site,Bachelor's
+EMP1549,Emma,Williams,Female,46,Finance,Controller,2022-05-28,2.6,88478,5,6,5,No,On-site,Master's
+EMP1550,Jack,Jackson,Male,36,Engineering,Junior Developer,2019-04-09,5.7,55000,5,9,1,No,On-site,PhD
+EMP1551,Riley,Robinson,Female,27,Finance,Senior Analyst,2017-02-02,7.9,59196,4,6,3,No,Hybrid,Master's
+EMP1552,Logan,Thompson,Male,41,HR,HR Assistant,2018-09-28,6.3,41544,3,9,4,No,On-site,High School
+EMP1553,Emily,Taylor,Female,37,Engineering,Mid Developer,2020-08-15,4.4,72229,3,2,2,Yes,Hybrid,Bachelor's
+EMP1554,Austin,Wilson,Male,36,Operations,Operations Manager,2016-09-13,8.3,69939,3,6,3,No,Hybrid,Bachelor's
+EMP1555,Grace,Lewis,Female,36,Operations,Process Manager,2019-09-06,5.3,56510,4,6,13,No,On-site,PhD
+EMP1556,Sofia,Robinson,Female,30,HR,HR Assistant,2017-04-26,7.7,41027,3,7,5,No,On-site,Bachelor's
+EMP1557,Jack,Thompson,Male,30,Engineering,Senior Developer,2019-10-28,5.2,94025,3,1,7,No,On-site,Bachelor's
+EMP1558,Ryan,Williams,Male,57,Customer Support,Senior Support Agent,2020-12-23,4.0,45224,3,5,6,No,Full Remote,Bachelor's
+EMP1559,James,Anderson,Male,48,Operations,Process Manager,2019-08-12,5.4,62400,5,2,6,No,On-site,Master's
+EMP1560,Isabella,Miller,Female,28,Sales,Senior AE,2016-06-22,8.5,73799,2,5,9,No,Hybrid,Bachelor's
+EMP1561,Hunter,Davis,Male,36,Sales,Sales Representative,2022-09-16,2.3,45000,5,1,7,Yes,Full Remote,Master's
+EMP1562,Brandon,Lewis,Male,52,Sales,Senior AE,2022-12-26,2.0,78613,3,6,3,No,Full Remote,Bachelor's
+EMP1563,Isabella,Garcia,Female,34,Marketing,Marketing Specialist,2017-07-15,7.5,49639,1,7,7,No,Full Remote,Bachelor's
+EMP1564,Amelia,Miller,Female,35,Sales,VP Sales,2015-09-28,9.3,100558,5,6,0,No,Hybrid,Master's
+EMP1565,Sofia,Davis,Female,49,Operations,Process Manager,2019-07-17,5.5,58340,3,5,6,No,On-site,Master's
+EMP1566,Riley,Clark,Female,56,Operations,COO,2020-11-21,4.1,84641,5,6,3,No,Full Remote,Bachelor's
+EMP1567,Olivia,Davis,Female,55,Engineering,Senior Developer,2021-01-12,4.0,88257,3,5,13,No,Hybrid,Bachelor's
+EMP1568,Mason,Taylor,Male,50,Customer Support,Support Manager,2019-06-19,5.5,62727,4,6,10,No,On-site,Bachelor's
+EMP1569,Connor,Taylor,Male,25,HR,HR Assistant,2022-09-27,2.3,38034,3,7,3,No,Full Remote,Master's
+EMP1570,Ava,Thompson,Female,29,Operations,Operations Specialist,2017-01-06,8.0,56114,4,8,5,No,On-site,Bachelor's
+EMP1571,Abigail,Harris,Female,23,Finance,Senior Analyst,2017-01-02,8.0,52504,1,10,6,No,On-site,Master's
+EMP1572,Aiden,Anderson,Male,32,Sales,Senior AE,2023-01-21,1.9,78338,5,9,1,No,Full Remote,Master's
+EMP1573,Ava,Thompson,Female,46,Finance,Finance Manager,2023-02-25,1.9,70269,5,5,9,No,On-site,Bachelor's
+EMP1574,Olivia,Garcia,Female,43,Customer Support,Senior Support Agent,2021-05-05,3.7,38560,4,3,9,No,Full Remote,Bachelor's
+EMP1575,Connor,Taylor,Male,41,Engineering,Senior Developer,2023-03-10,1.8,92094,3,7,5,No,Hybrid,Master's
+EMP1576,Lucas,Miller,Male,22,Operations,Operations Analyst,2021-12-25,3.0,43892,2,6,4,No,Full Remote,Bachelor's
+EMP1577,Chloe,Smith,Female,53,Marketing,Content Manager,2017-09-01,7.3,57392,2,5,5,No,Hybrid,Bachelor's
+EMP1578,Logan,Robinson,Male,39,Marketing,Marketing Specialist,2021-12-13,3.1,55755,3,3,4,No,On-site,Bachelor's
+EMP1579,Lucas,Johnson,Male,44,Sales,Sales Representative,2015-05-31,9.6,45000,2,2,8,Yes,Full Remote,Bachelor's
+EMP1580,Abigail,Williams,Female,25,Finance,Financial Analyst,2016-03-22,8.8,46231,3,6,1,Yes,On-site,Master's
+EMP1581,Tyler,Clark,Male,45,Engineering,Senior Developer,2015-05-27,9.6,97381,4,6,1,Yes,Hybrid,Bachelor's
+EMP1582,Ava,White,Female,57,Operations,Operations Analyst,2015-09-23,9.3,36937,5,2,8,Yes,On-site,Bachelor's
+EMP1583,Grace,Miller,Female,35,Operations,Process Manager,2021-11-11,3.1,52791,3,8,8,No,On-site,Bachelor's
+EMP1584,Jordan,Lewis,Male,40,Engineering,Junior Developer,2019-10-16,5.2,59100,2,3,5,No,Hybrid,Bachelor's
+EMP1585,Isabella,Lewis,Female,58,Operations,Operations Specialist,2020-07-26,4.4,48494,2,5,0,No,Hybrid,Bachelor's
+EMP1586,Jack,Miller,Male,22,Engineering,Mid Developer,2016-04-29,8.7,76470,4,6,7,Yes,Hybrid,Bachelor's
+EMP1587,Hunter,White,Male,48,Sales,Sales Representative,2015-07-06,9.5,45000,3,7,6,No,Hybrid,Master's
+EMP1588,Mason,Taylor,Male,38,HR,HR Assistant,2023-11-11,1.1,40584,2,8,0,Yes,Hybrid,Bachelor's
+EMP1589,Liam,Anderson,Male,43,Sales,Senior AE,2019-06-11,5.6,74832,2,5,6,No,Hybrid,High School
+EMP1590,Mason,Anderson,Male,43,Engineering,Mid Developer,2022-07-17,2.5,76091,4,5,7,No,Hybrid,High School
+EMP1591,Jordan,Jones,Male,51,Operations,Operations Manager,2024-09-13,0.3,73643,1,8,10,No,Hybrid,Master's
+EMP1592,Olivia,Thompson,Female,41,Engineering,Mid Developer,2021-05-03,3.7,70172,1,6,9,Yes,Hybrid,Bachelor's
+EMP1593,Emily,Williams,Female,31,Engineering,Mid Developer,2018-02-22,6.9,71098,3,7,6,No,Hybrid,Bachelor's
+EMP1594,Jake,Lewis,Male,46,Operations,Process Manager,2017-02-06,7.9,56126,4,8,11,No,On-site,Master's
+EMP1595,Olivia,Wilson,Female,48,Sales,Account Executive,2015-12-22,9.0,57944,5,6,4,No,Hybrid,PhD
+EMP1596,Brandon,Taylor,Male,33,Operations,Process Manager,2016-04-04,8.7,62753,3,5,10,No,Full Remote,Bachelor's
+EMP1597,Tyler,Thompson,Male,23,Finance,Senior Analyst,2023-12-17,1.0,64457,1,6,8,No,Hybrid,Bachelor's
+EMP1598,Grace,Taylor,Female,42,Engineering,Tech Lead,2016-08-09,8.4,107357,4,3,4,Yes,On-site,Bachelor's
+EMP1599,Mason,Johnson,Male,51,Engineering,Senior Developer,2019-05-07,5.7,97570,3,8,7,No,Hybrid,High School
+EMP1600,Hunter,Williams,Male,43,Customer Support,Support Agent,2020-03-27,4.8,42397,4,4,3,No,Full Remote,Master's
