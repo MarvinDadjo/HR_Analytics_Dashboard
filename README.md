@@ -1,93 +1,113 @@
 # HR Analytics Dashboard
 
-An interactive HR analytics dashboard built with Python and Streamlit, designed to give HR teams and business stakeholders a clear view of workforce health.
+> **Python · Streamlit · SQLite · Pandas · Plotly**
 
-## Live Demo
+Interactive HR analytics dashboard tracking attrition, salary equity, and workforce risk across departments. Powered by a local SQLite database with 8 pre-built analytical queries.
 
-> Clone the repo and run locally — instructions below.
+---
+
+## Dashboard Preview
 
 ![Dashboard Preview](screenshots/dashboard_preview.png)
 
 ---
 
-## What This Project Does
+## Business Problem
 
-This dashboard turns raw HR data into actionable insights across 7 departments and 600 employee records. It covers the key questions any HR team actually cares about:
+HR teams often rely on static spreadsheets with no real-time filtering or cross-dimensional analysis. This dashboard replaces that workflow with an interactive tool that answers the key questions:
 
-- Where is attrition the highest, and why?
-- Is there a gender pay gap, and how large is it?
-- Which departments are understaffed or overpaying?
-- How has hiring evolved over time?
-- Are low satisfaction scores predictive of turnover?
+- Which departments and roles have the highest attrition risk?
+- Is there a measurable gender pay gap by job role?
+- Who are the employees most likely to leave in the next 6 months?
+- Does overtime correlate with higher attrition — and at what cost?
 
 ---
 
 ## Features
 
-| Section | Description |
+| Dashboard Section | Description |
 |---|---|
-| **KPI Cards** | Headcount, attrition rate, avg salary, satisfaction, absence days |
-| **Headcount by Department** | Horizontal bar chart with color gradient |
-| **Attrition by Department** | Ranked by rate with % labels |
-| **Salary Distribution** | Box plots per department showing spread and outliers |
-| **Gender Pay Gap** | Side-by-side avg salary comparison by gender per department |
-| **Performance Distribution** | Donut chart across 5 performance tiers |
-| **Satisfaction vs Attrition** | Overlapping histogram showing correlation |
-| **Hiring Trend** | Quarterly area chart from 2015 to 2024 |
-| **Raw Data Table** | Filterable and collapsible employee-level view |
+| **KPI Cards** | Total headcount, attrition rate, avg salary, gender split |
+| **Attrition by Department** | Bar chart with rates per department |
+| **Salary by Department & Gender** | Pay gap visualisation |
+| **Tenure vs Attrition** | Line chart — when do employees leave? |
+| **Satisfaction Breakdown** | Attrition rate by job satisfaction score |
+| **Overtime Impact** | Attrition and salary split by overtime status |
+| **Age Band Profile** | Headcount, salary and tenure by age group |
+| **Flight Risk Table** | Top 50 current employees with highest risk score |
+| **Gender Pay Gap by Role** | Gap % per job title, ranked by magnitude |
 
-All charts respond to the sidebar filters (department, gender, remote work type, salary range) in real time.
+---
+
+## Database Layer (SQLite)
+
+All dashboard queries run against a local SQLite database (`hr_analytics.db`) loaded from `hr_data.csv`.  
+The `database.py` module exposes 8 named queries and a `run_custom_query()` function for ad-hoc analysis.
+
+```python
+from database import init_db, run_query
+
+init_db()                                  # creates hr_analytics.db
+df = run_query("attrition_by_department")  # returns a pandas DataFrame
+df = run_query("high_flight_risk")         # top 50 flight risk employees
+df = run_query("gender_pay_gap_by_role")   # pay gap % by job title
+```
+
+### Available Named Queries
+
+| Query name | Description |
+|---|---|
+| `attrition_by_department` | Headcount, attritions, rate % per department |
+| `salary_by_department_gender` | Avg salary split by dept × gender |
+| `tenure_vs_attrition` | Attrition rate by years at company |
+| `satisfaction_breakdown` | Attrition rate by job satisfaction level |
+| `overtime_impact` | Attrition and salary split by overtime |
+| `age_band_profile` | Headcount, salary, tenure, attritions by age band |
+| `high_flight_risk` | Top 50 current employees with composite risk score |
+| `gender_pay_gap_by_role` | Pay gap % per job title, ranked |
+
+### Flight Risk Scoring
+
+Employees currently at the company are scored on 5 signals:
+
+```sql
+risk_score =
+    CASE WHEN OverTime = 'Yes'        THEN 2 ELSE 0 END +
+    CASE WHEN JobSatisfaction <= 2    THEN 2 ELSE 0 END +
+    CASE WHEN YearsAtCompany <= 2     THEN 1 ELSE 0 END +
+    CASE WHEN MonthlyIncome < 3500    THEN 1 ELSE 0 END +
+    CASE WHEN WorkLifeBalance <= 2    THEN 1 ELSE 0 END
+```
 
 ---
 
 ## Tech Stack
 
-- **Python 3.11**
-- **Streamlit** — dashboard framework
-- **Pandas** — data manipulation
-- **Plotly Express** — interactive charts
-- **NumPy** — dataset generation
-
----
-
-## Dataset
-
-`hr_data.csv` — 600 synthetic employee records with realistic distributions:
-
-| Column | Description |
+| Layer | Tool |
 |---|---|
-| `employee_id` | Unique identifier |
-| `department` | One of 7 departments |
-| `job_title` | Seniority-based title per department |
-| `salary` | Annual salary in USD |
-| `performance_score` | 1 (poor) to 5 (excellent) |
-| `satisfaction_score` | Self-reported score, 1 to 10 |
-| `attrition` | Whether the employee left (Yes/No) |
-| `absence_days` | Annual absences |
-| `tenure_years` | Years since hire date |
-| `remote_work` | Full Remote / Hybrid / On-site |
-| `gender` | Male / Female |
-| `education` | High School to PhD |
-
-The dataset includes intentional patterns (gender pay gap ~8%, higher attrition for low performers, satisfaction-attrition correlation) to make the analysis meaningful.
+| Data storage | SQLite (via `sqlite3` + `database.py`) |
+| Data manipulation | Python, Pandas |
+| Dashboard | Streamlit |
+| Visualisation | Plotly |
 
 ---
 
 ## Run Locally
 
 ```bash
-# 1. Clone the repo
 git clone https://github.com/MarvinDadjo/hr-analytics-dashboard.git
 cd hr-analytics-dashboard
 
-# 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Launch the dashboard
+# Initialise the SQLite database
+python database.py
+
+# Launch the dashboard
 streamlit run app.py
 ```
 
-Then open [http://localhost:8501](http://localhost:8501) in your browser.
+Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
@@ -95,23 +115,14 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ```
 hr-analytics-dashboard/
-├── app.py                  # Main Streamlit application
-├── hr_data.csv             # HR dataset (600 employees)
-├── generate_dataset.py     # Script used to generate the dataset
-├── requirements.txt        # Python dependencies
+├── app.py           # Streamlit dashboard
+├── database.py      # SQLite setup + 8 named analytical queries
+├── hr_data.csv      # Source dataset (600 employees)
+├── requirements.txt
 ├── screenshots/
 │   └── dashboard_preview.png
 └── README.md
 ```
-
----
-
-## Key Insights From the Data
-
-- **Customer Support** shows the highest attrition rate (~28%) despite being the lowest-paid department
-- A **~6-8% gender pay gap** is visible across most departments, most pronounced in Engineering
-- Employees with a satisfaction score below **4/10** leave at 3x the rate of those above 7
-- **60% of hires** between 2015-2024 stayed beyond 3 years — concentrated in Engineering and Operations
 
 ---
 
